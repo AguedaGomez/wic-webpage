@@ -1,1 +1,1 @@
-# wic-webpage
+Web page for Women in Copernicus
