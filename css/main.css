@@ -647,7 +647,7 @@ th {
       .section-title h1 {
         font-size: 30px; } }
     .section-title h1 span {
-      color: #4ba0f9; }
+      color: #2096BC; }
   .section-title p {
     font-size: 12px;
     text-transform: uppercase;
@@ -655,11 +655,11 @@ th {
     color: #222222; }
 
 .gradient-bg, .primary-btn:hover, .video-play-button:before, .video-play-button:after, .counter_area .single_counter:hover, .single-item .team-left .member-desc .m-social a:hover, .cta-area, .single-footer-widget .click-btn {
-  background: -webkit-linear-gradient(90deg, #4ba0f9 0%, #85f3f9 100%);
-  background: -moz-linear-gradient(90deg, #4ba0f9 0%, #85f3f9 100%);
-  background: -o-linear-gradient(90deg, #4ba0f9 0%, #85f3f9 100%);
-  background: -ms-linear-gradient(90deg, #4ba0f9 0%, #85f3f9 100%);
-  background: linear-gradient(90deg, #4ba0f9 0%, #85f3f9 100%); }
+  background: -webkit-linear-gradient(180deg, #2096BC 0%, #01224D 100%);
+  background: -moz-linear-gradient(180deg, #2096BC 0%, #01224D 100%);
+  background: -o-linear-gradient(180deg, #2096BC 0%, #01224D 100%);
+  background: -ms-linear-gradient(180deg, #2096BC 0%, #01224D 100%);
+  background: linear-gradient(180deg, #2096BC 0%, #01224D 100%); }
 
 .gradient-bg-reverse {
   background: -webkit-linear-gradient(270deg, #4ba0f9 0%, #85f3f9 100%);
@@ -681,7 +681,7 @@ th {
   padding-left: 40px;
   padding-right: 40px;
   border-radius: 0px;
-  border: 2px solid #4ba0f9;
+  border: 2px solid #2096BC;
   color: #000000;
   display: inline-block;
   font-weight: 500;
