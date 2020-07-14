@@ -2286,10 +2286,11 @@ h6 {
 /*Brand area css
 ==========================================*/
 .brand-area {
-  margin-top: -112.5px; }
+  margin-top: 0px;
+  margin-bottom: 30px; }
   @media (max-width: 1440px) {
     .brand-area {
-      margin-top: 0; } }
+      margin-top: 40; } }
 
 .single-brand-item {
   background: #fff;
@@ -2754,8 +2755,8 @@ h6 {
 ============================================================================================ */
 .cta-area {
   position: relative;
-  padding: 100px 0;
-  margin: 128px 0; }
+  padding: 80px 0;
+  margin: 50px 0; }
   @media (max-width: 1380px) {
     .cta-area {
       margin: 35px 0; } }
