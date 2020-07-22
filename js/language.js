@@ -16,7 +16,7 @@ var language = {
         opportunities_title: "Opportunities",
         opportunities_p: "We aim to identify opportunities and obstacles",
         inspiration_title: "Inspiration",
-        inspitarion_p: "We want to inspire and encourage girls / women to study and apply for these positions",
+        inspiration_p: "We want to inspire and encourage girls / women to study and apply for these positions",
         survey_title: "Are you Woman working in Copernicus?",
         survey_p: "This survey addresses European Women working (or having worked) with Copernicus data or in the Copernicus world (please just answer in that case). There are 6 sections (demographics, background, barriers, facilitators, education choices and final). This should take 15 minutes to answer.<br> Thank you for your time and involvement",
         survey_button: "Fill in the survey",
@@ -37,36 +37,38 @@ var language = {
         opportunities_title: "Oportunidades",
         opportunities_p: "Identificamos las oportunidades y obstáculos",
         inspiration_title: "Inspiración",
-        inspitarion_p: "Queremos inspirar e incentivar a mujeres y niñas a que estudien y apliquen para esos puestros de trabajo",
-        survey_title: "",
-        survey_p: "",
-        survey_button: "",
-        funding_pretitle: "",
-        funding_title: "",
-        funding_p: "",
+        inspiration_p: "Queremos inspirar e incentivar a mujeres y niñas a que estudien y apliquen para esos puestros de trabajo",
+        survey_title: "¿Eres una mujer que trabaja en copernicus?",
+        survey_p: "Esta encuesta se dirige a las mujeres europeas que trabajan (o han trabajado) con datos de Copernicus o en el mundo de Copernicus (responder solo en ese caso). Hay 6 secciones (demografía, antecedentes, barreras, facilitadores, opciones educativas y final). Responder tomará sobre 15 minutos. <br> Gracias por su tiempo y participación.",
+        survey_button: "Responde a la encuesta",
+        funding_pretitle: "Quienes somos",
+        funding_title: "Financiación y <span> Socios. </span>",
+        funding_p: "Este proyecto está financiado por CoRdiNet (www.Cordinet.net), respaldado por NEREUS (Red de Regiones Europeas que Utilizan Tecnologías Espaciales www.nereus-regions.eu), EURISY (Asociación Europea de agencias espaciales, www.eurisy.org) y EARSC (Asociación Europea de Empresas de Teledetección, www.earsc.org), y está dirigida por BreTel (Grupo Británico de Teledetección, Francia), SPW (Servicio Público de Valonia, Bélgica) y UJI (Universidad Jaume I, España). La Universidad de Estrasburgo (Francia) y Salzburgo (Austria) son socios.",
     },
     fr: {
-        home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
-        video_presentation: "",
-        action_pretitle: "",
-        action_title: "",
-        action_p: "Les femmes participent activement à l’expérience Copernicus. Elles sont parfois peu visibles Les femmes participent activement à l’expérience Copernicus. Elles sont parfois peu visibles mais bien présentes tout au long de la chaîne de production de Copernicus / de l’Observation de la Terre (EO) / de la Géoinformation (GI) (Copernicus/EO/GI). Les métiers liés à ces domaines sont très variés : physicienne, géographe, informaticienne, environnementaliste, océanographe, géomaticienne, urbaniste, etc. ; à des postes de chercheuses, fonctionnaires, consultantes, entrepreneures, etc. Une grande partie de ces professions ont une forte composante technique, et paraissent peu attrayantes pour beaucoup de femmes.\'Les Femmes et Copernicus\' (Women in Copernicus) veut donner une voix et un visage aux femmes qui œuvrent pour Copernicus, qu’elles soient expertes dans l’analyse des données satellitaires ou utilisatrices de services Copernicus pour divers domaines d’applications.  Ce projet vise à identifier les opportunités et les barrières sur le chemin de ces femmes, et également d’inspirer les filles et les femmes capables d’être au premier plan du progamme Copernicus.",
-        positions_title: "",
-        positions_p: "",
-        opportunities_title: "",
-        opportunities_p: "",
-        inspiration_title: "",
-        inspitarion_p: "",
-        survey_title: "",
+        home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
+        home_button: "En savoir plus sur nous",
+        video_presentation: "En savoir plus sur nous",
+        action_pretitle: "NOTRE ACTION",
+        action_title: "Pourquoi les femmes et <span>Copernicus?</span> <br>C'est notre mission",
+        action_p: "Les femmes participent activement à l’expérience Copernicus. Elles sont parfois peu visibles Les femmes participent activement à l’expérience Copernicus. Elles sont parfois peu visibles mais bien présentes tout au long de la chaîne de production de Copernicus / de l’Observation de la Terre (EO) / de la Géoinformation (GI) (Copernicus/EO/GI). Les métiers liés à ces domaines sont très variés : physicienne, géographe, informaticienne, environnementaliste, océanographe, géomaticienne, urbaniste, etc. ; à des postes de chercheuses, fonctionnaires, consultantes, entrepreneures, etc. Une grande partie de ces professions ont une forte composante technique, et paraissent peu attrayantes pour beaucoup de femmes. <br> \'Les Femmes et Copernicus\' (Women in Copernicus) veut donner une voix et un visage aux femmes qui œuvrent pour Copernicus, qu’elles soient expertes dans l’analyse des données satellitaires ou utilisatrices de services Copernicus pour divers domaines d’applications.  Ce projet vise à identifier les opportunités et les barrières sur le chemin de ces femmes, et également d’inspirer les filles et les femmes capables d’être au premier plan du progamme Copernicus.",
+        positions_title: "Positions",
+        positions_p: "Peu de postes à forte composante technique sont occupés par des femmes",
+        opportunities_title: "Opportunités",
+        opportunities_p: "Nous cherchons à identifier les opportunités et les obstacles",
+        inspiration_title: "Inspiration",
+        inspiration_p: "Nous voulons inspirer et encourager les filles / femmes à étudier et à postuler à ces métiers liés à Copernicus",
+        survey_title: "Êtes-vous une femme travaillant en lien avec Copernicus?",
         survey_p: "Cette enquête s’adresse aux femmes européennes travaillant ou ayant travaillé avec des données Copernicus ou dans les domaines d’activité liés à Copernicus. L’enquête compte 6 sections (démographique, parcours et carrière, barrières, facilitateurs, choix d’éducation et conclusion) et 10 minutes suffisent pour y répondre. Merci pour votre temps et votre intérêt pour cette initiative. * le genre féminin est indépendant du sexe biologique",
-        survey_button: "",
-        funding_pretitle: "",
-        funding_title: "",
+        survey_button: "RÉPONDRE À L'ENQUÊTE",
+        funding_pretitle: "QUI NOUS SOMMES",
+        funding_title: "Financement et <span> partenaires. </span>",
         funding_p: "Ce projet est financé par CoRdiNet, soutenu par NEREUS (Network of European Regions Using Space Technologies), EURISY (European association of space agencies), EARSC (European Association of Remote Sensing Companies) et BELSPO (Service public de programmation Politique scientifique, Belgique). Il est porté par BreTel (Bretagne Télédétection, France), SPW (Service Public de Wallonnie, Belgique) et UJI (Universtity Jacques Ier, Espagne). L’Université de Strasbourg (France) et l’Université de Salzburg (Autriche) viennent en support.",
 
     },
     it: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
+        home_button: "More About Us",
         video_presentation: "",
         action_pretitle: "",
         action_title: "",
@@ -76,7 +78,7 @@ var language = {
         opportunities_title: "",
         opportunities_p: "",
         inspiration_title: "",
-        inspitarion_p: "",
+        inspiration_p: "",
         survey_title: "",
         survey_p: "",
         survey_button: "",
@@ -87,6 +89,7 @@ var language = {
     },
     el: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
+        home_button: "More About Us",
         video_presentation: "",
         action_pretitle: "",
         action_title: "",
@@ -96,7 +99,7 @@ var language = {
         opportunities_title: "",
         opportunities_p: "",
         inspiration_title: "",
-        inspitarion_p: "",
+        inspiration_p: "",
         survey_title: "",
         survey_p: "",
         survey_button: "",
@@ -107,6 +110,7 @@ var language = {
     },
     de: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
+        home_button: "More About Us",
         video_presentation: "",
         action_pretitle: "",
         action_title: "",
@@ -116,7 +120,7 @@ var language = {
         opportunities_title: "",
         opportunities_p: "",
         inspiration_title: "",
-        inspitarion_p: "",
+        inspiration_p: "",
         survey_title: "",
         survey_p: "",
         survey_button: "",
@@ -129,7 +133,7 @@ var language = {
 
 var subtitle = document.getElementById("home_subtitle");
 var home_button = document.getElementById("home_button");
-var video_presentation = document.getElementById("video_presentation");
+// var video_presentation = document.getElementById("video_presentation");
 var action_pretitle = document.getElementById("action_pretitle");
 var action_title = document.getElementById("action_title");
 var action_p = document.getElementById("action_p");
@@ -138,38 +142,40 @@ var positions_p = document.getElementById("positions_p");
 var opportunities_title = document.getElementById("opportunities_title");
 var opportunities_p = document.getElementById("opportunities_p");
 var inspiration_title = document.getElementById("inspiration_title");
-var inspitarion_p = document.getElementById("inspiration_p");
+var inspiration_p = document.getElementById("inspiration_p");
 var survey_title = document.getElementById("survey_title");
 var survey_p = document.getElementById("survey_p");
 var survey_button = document.getElementById("survey_button");
 var funding_pretitle = document.getElementById("funding_pretitle");
 var funding_title = document.getElementById("funding_title");
 var funding_p = document.getElementById("funding_p");
-let texts = [subtitle, home_button, video_presentation, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspitarion_p,
+let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
     survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p];
 
 changeLanguague();
-chooseLanguage();
 
-function chooseLanguage() {
-    if (location.hash) {
-        console.log(location.hash);
-        texts.forEach(element => {
-            var language_text = "language." + location.hash.slice(1) + "." + element.id;
-            console.log(language_text);
-            element.innerHTML = eval(language_text);
-        });
-    }
+function chooseLanguage(lan) {
+    texts.forEach(element => {
+        var language_text = "language." + lan + "." + element.id;
+        console.log(language_text);
+        element.innerHTML = eval(language_text);
+    });
+
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
-
-    console.log("chooselanguage");
+    location.hash = "#" + lan;
+    console.log("chooselanguage: " + lan);
 }
 
 function changeLanguague() {
+    console.log("changeLanguage");
     var lang = window.location.pathname.split("#")[1];
-    if (lang == "") {
+    console.log("to lan: " + lang);
+    if (!lang || lang == "" || lang == " ") {
         var userLang = navigator.language || navigator.userLanguage;
-        location.hash = "#" + userLang.slice(0, 2);
+        console.log("user lan: " + userLang);
+        chooseLanguage(userLang.slice(0, 2));
+    } else {
+        chooseLanguage('en');
     }
 }
