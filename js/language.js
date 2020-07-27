@@ -23,7 +23,9 @@ var language = {
         funding_pretitle: "Who we are",
         funding_title: "Funding and <span>Partners.</span>",
         funding_p: "This project is funded by CoRdiNet (www.Cordinet.net), supported by NEREUS (Network of European Regions Using Space Technologies www.nereus-regions.eu), EURISY (European association of space agencies, www.eurisy.org) and EARSC (European Association of Remote Sensing Companies, www.earsc.org), and is led by BreTel (Brittany Remote Sensing Group, France), SPW (Public Service of Wallonia, Belgium) and UJI (Universtity Jaume I, Spain). The University of Strasbourg (France) and Salzburg (Austria) are partners.",
-
+        participants: "PARTICIPANTS",
+        supporters: "SUPPORTERS",
+        partners: "PARTNERS"
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
@@ -44,6 +46,9 @@ var language = {
         funding_pretitle: "Quienes somos",
         funding_title: "Financiación y <span> Socios. </span>",
         funding_p: "Este proyecto está financiado por CoRdiNet (www.Cordinet.net), respaldado por NEREUS (Red de Regiones Europeas que Utilizan Tecnologías Espaciales www.nereus-regions.eu), EURISY (Asociación Europea de agencias espaciales, www.eurisy.org) y EARSC (Asociación Europea de Empresas de Teledetección, www.earsc.org), y está dirigida por BreTel (Grupo Británico de Teledetección, Francia), SPW (Servicio Público de Valonia, Bélgica) y UJI (Universidad Jaume I, España). La Universidad de Estrasburgo (Francia) y Salzburgo (Austria) son socios.",
+        participants: "PARTICIPANTES",
+        supporters: "FINANCIADORES",
+        partners: "SOCIOS"
     },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
@@ -64,28 +69,32 @@ var language = {
         funding_pretitle: "QUI NOUS SOMMES",
         funding_title: "Financement et <span> partenaires. </span>",
         funding_p: "Ce projet est financé par CoRdiNet, soutenu par NEREUS (Network of European Regions Using Space Technologies), EURISY (European association of space agencies), EARSC (European Association of Remote Sensing Companies) et BELSPO (Service public de programmation Politique scientifique, Belgique). Il est porté par BreTel (Bretagne Télédétection, France), SPW (Service Public de Wallonnie, Belgique) et UJI (Universtity Jacques Ier, Espagne). L’Université de Strasbourg (France) et l’Université de Salzburg (Autriche) viennent en support.",
-
+        participants: "PARTICIPANTS",
+        supporters: "PARTISANS",
+        partners: "PARTENAIRES"
     },
     it: {
-        home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
-        home_button: "More About Us",
-        video_presentation: "",
-        action_pretitle: "",
-        action_title: "",
-        action_p: "",
-        positions_title: "",
-        positions_p: "",
-        opportunities_title: "",
-        opportunities_p: "",
-        inspiration_title: "",
-        inspiration_p: "",
-        survey_title: "",
-        survey_p: "",
-        survey_button: "",
-        funding_pretitle: "",
-        funding_title: "",
-        funding_p: "",
-
+        home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
+        home_button: "Per saperne di più su di noi",
+        video_presentation: "Per saperne di più su di noi",
+        action_pretitle: "LA NOSTRA AZIONE",
+        action_title: "Perché \"Donne in <span>Copernicus</span>\"? <br> La nostra missione",
+        action_p: "Le donne sono parte integrante dell’esperienza Copernicus. A volte rimangono nell’ombra, ma sono ben  presenti nei processi di produzione dei settori dell’Osservazione della terra, della Geoinformazione e dei dati e servizi Copernicus (EO/GI/Copernicus). Le professioni relative a Copernicus, all’Osservazione della Terra e alla Geografia sono molteplici: fisico, geografo, professionista dell’ambiente, geomatico, oceanografo, ricercatore, funzionario pubblico, consulente, urbanista, imprenditore, ecc. Le donne occupano ancora poche di queste posizioni con una forte componente tecnica. <br> Con l’iniziativa “Women in Copernicus” vogliamo dare un volto e una voce alle donne che lavorano con i dati e i servizi di Copernicus, siano esse esperte nell’analisi dei dati satellitari o utenti dei dati e servizi Copernicus in vari campi di applicazione. Quest’iniziativa mira ad identificare le opportunità e gli ostacoli nel percorso professionale di queste donne, ed anche ad inspirare le ragazze e le donne dando un ruolo di primo piano alle “Copernicus Women”.",
+        positions_title: "Posizioni",
+        positions_p: "Poche posizioni con una forte componente tecnica sono occupate dalle donne",
+        opportunities_title: "Opportunità",
+        opportunities_p: "Miriamo a identificare opportunità e ostacoli",
+        inspiration_title: "Ispirazione",
+        inspiration_p: "Vogliamo ispirare e incoraggiare le ragazze / donne a studiare e candidarsi per queste posizioni",
+        survey_title: "Sei una donna che lavora a Copernicus?",
+        survey_p: "Quest’inchiesta è rivolta alle donne europee che lavorano (o hanno lavorato) con i dati e i servizi di Copernicus (si prega di rispondere solo in questo caso). L’inchiesta include 6 sezioni (dati demografici, background, barriere, fattori facilitanti, scelte di studio ed una parte finale). Rispondere all’inchiesta dovrebbe richiedere solo 15 minuti. La ringraziamo per il suo tempo e il suo contributo. * Il genere femminile è indipendente dal sesso biologico",
+        survey_button: "COMPILA IL QUESTIONARIO",
+        funding_pretitle: "CHI SIAMO",
+        funding_title: "Finanziamenti e partner.",
+        funding_p: "Questo progetto è finanziato da CoRdiNet (www.Cordinet.net), sostenuto da NEREUS (Network of European Regions Using Space Technologies, www.nereus-regions.eu), EURISY (Associazione europea di agenzie spaziali, www.eurisy.org), EARSC (European Association of Remote Sensing Companies, www.earsc.org) e BELSPO (Servizio pubblico di programmazione politica scientifica, Belgio). <br>Il progetto è coordinato da BreTel (Brittany Remote Sensing Group, Francia), SPW (Public Service of Wallonia, Belgio) e da UJI (Universtity Jaume I, Spagna). L'Università di Strasburgo (Francia) e di Salisburgo (Austria) sono ugualmente partner dell’iniziativa.",
+        participants: "PARTECIPANTI",
+        supporters: "FINANZIATORI",
+        partners: "PARTNERS"
     },
     el: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
@@ -93,7 +102,7 @@ var language = {
         video_presentation: "",
         action_pretitle: "",
         action_title: "",
-        action_p: "",
+        action_p: "Οι γυναίκες αποτελούν μέρος της εμπειρίας του Copernicus. Μερικές φορές είναι κρυμμένες ωστόσο είναι παρούσες στη ροή παραγωγής των τομέων της γεωσκόπησης/των γεωπληροφοριών/ του Copernicus (ΕΟ/ GI /Copernicus). Τα επαγγέλματα που σχετίζονται με αυτούς τους τομείς ποικίλουν  σε μεγάλο βαθμό: φυσικός, γεωγράφος, επιστήμονας υπολογιστών, περιβαλλοντολόγος, χαρτογράφος, ωκεανογράφος, ερευνητής, δημόσιος υπάλληλος, σύμβουλος, πολεοδόμος, επιχειρηματίας κ.λπ. Όμως, οι γυναίκες εξακολουθούν να κατέχουν λίγες από τις θέσεις που περιλαμβάνουν ισχυρή τεχνική συνιστώσα. <br> Η δράση «Γυναίκες στο πρόγραμμα Copernicus» θέλει να δώσει μια φωνή και ένα πρόσωπο στις γυναίκες που εργάζονται με το Copernicus, είτε είναι ειδικοί στην ανάλυση δορυφορικών δεδομένων είτε χρήστες των υπηρεσιών του Copernicus σε διάφορους τομείς εφαρμογής. Άποσκοπεί στον εντοπισμό ευκαιριών και εμποδίων στην πορεία των γυναικών, καθώς και στην ενθάρρυνση των κοριτσιών και των γυναικών φέρνοντας τις ίδιες στο προσκήνιο του Copernicus.",
         positions_title: "",
         positions_p: "",
         opportunities_title: "",
@@ -101,20 +110,22 @@ var language = {
         inspiration_title: "",
         inspiration_p: "",
         survey_title: "",
-        survey_p: "",
+        survey_p: "Η έρευνα αυτή αφορά τις ευρωπαίες γυναίκες* που εργάζονται (ή έχουν εργαστεί) με δεδομένα του προγράμματος Copernicus. Η έρευνα περιλαμβάνει 5 τμήματα (τα δημογραφικά στοιχεία, το υπόβαθρο και την σταδιοδρομία, τα εμπόδια, τους διευκολυντές και τις εκπαιδευτικές επιλογές). Θα χρειαστείτε περίπου 10 λεπτά για να απαντήσετε στο ερωτηματολόγιο. Σας ευχαριστούμε για τον χρόνο και τη συμμετοχή σας. * το γυναικείο φύλο είναι ανεξάρτητο από το βιολογικό φύλο.",
         survey_button: "",
         funding_pretitle: "",
         funding_title: "",
         funding_p: "",
-
+        participants: "PARTICIPANTS",
+        supporters: "SUPPORTERS",
+        partners: "PARTNERS"
     },
     de: {
-        home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará y entenderá...",
-        home_button: "More About Us",
+        home_subtitle: "",
+        home_button: "",
         video_presentation: "",
         action_pretitle: "",
         action_title: "",
-        action_p: "",
+        action_p: "Frauen sind ein wichtiger Teil von Copernicus. Sie sind nicht immer sichtbar, aber tragen wesentlich zur Entwicklung von Copernicus, Erdbeobachtung und Geoinformatik (Copernicus/EO/GI) bei. Berufe rund um Copernicus sind vielfältig, wie PhysikerInnen, GeographInnen, InformatikerInnen, UmweltschützerInnen, VermesserInnen, MeeresforscherInnen, StadtplanerInnen, WissenschaftlerInnen, RegierungsmitarbeiterInnen, BeraterInnen oder UnternehmerInnen. Frauen besetzen immer noch wenige dieser Positionen, die eine starken technische Komponente besitzen. <br> Mit der Initiative « Woman in Copernicus » wollen wir Frauen, die rund um Copernicus arbeiten ein Gesicht und eine Stimme verleihen – unabhängig davon ob sie ExpertInnen in Satellitenbildanalyse oder NutzerInnen von Copernicus services in unterschiedlichen Anwendungsbereichen sind. Wir wollen Chancen und Hindernisse am beruflichen Weg dieser Frauen aufzeigen und gleichzeitig Mädchen und Frauen inspirieren.",
         positions_title: "",
         positions_p: "",
         opportunities_title: "",
@@ -122,12 +133,14 @@ var language = {
         inspiration_title: "",
         inspiration_p: "",
         survey_title: "",
-        survey_p: "",
+        survey_p: "Der Fragebogen richtet sich an alle Frauen*, die in der Copernicus Welt bzw. mit Copernicus Daten arbeiten oder gearbeitet haben. Er ist unterteilt in 6 Abschnitte (Sozio-Demographie, Ausbildung und Karriere, Hürden und Barrieren, Förderung und Unterstützung, Ausbildungswahl - MINT, Danksagung) und wird 10 – 15 Minuten in Anspruch nehmen. Danke für Ihre Zeit und Ihr Interesse an dieser Initiative. * unabhängig von dem biologischen Geschlecht",
         survey_button: "",
         funding_pretitle: "",
         funding_title: "",
         funding_p: "",
-
+        participants: "PARTICIPANTS",
+        supporters: "SUPPORTERS",
+        partners: "PARTNERS"
     },
 }
 
@@ -149,8 +162,11 @@ var survey_button = document.getElementById("survey_button");
 var funding_pretitle = document.getElementById("funding_pretitle");
 var funding_title = document.getElementById("funding_title");
 var funding_p = document.getElementById("funding_p");
+var participants = document.getElementById("participants");
+var supporters = document.getElementById("supporters");
+var partners = document.getElementById("partners");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p];
+    survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p, participants, supporters, partners];
 
 changeLanguague();
 
