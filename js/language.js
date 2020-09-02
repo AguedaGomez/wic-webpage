@@ -25,7 +25,10 @@ var language = {
         funding_p: "This project is funded by CoRdiNet (www.Cordinet.net), supported by NEREUS (Network of European Regions Using Space Technologies www.nereus-regions.eu), EURISY (European association of space agencies, www.eurisy.org), EARSC (European Association of Remote Sensing Companies, www.earsc.org) and BELSPO (Belgian Federal Science Policy Office, www.belspo.be), and is led by BreTel (Brittany Remote Sensing Group, France), SPW (Public Service of Wallonia, Belgium) and UJI (Universtity Jaume I, Spain). The University of Strasbourg (France) and Salzburg (Austria) are partners.",
         participants: "PARTICIPANTS",
         supporters: "SUPPORTERS",
-        partners: "PARTNERS"
+        partners: "PARTNERS",
+        survey_end: "Survey will be open until 7th September",
+        interview_button: "Answer the interview",
+        interview_text: "If you already filled in the survey and would like to continue collaborating, please answer this interview before 14th September"
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
@@ -48,8 +51,11 @@ var language = {
         funding_p: "Este proyecto está financiado por CoRdiNet (www.Cordinet.net), respaldado por NEREUS (Red de Regiones Europeas que Utilizan Tecnologías Espaciales www.nereus-regions.eu), EURISY (Asociación Europea de agencias espaciales, www.eurisy.org) y EARSC (Asociación Europea de Empresas de Teledetección, www.earsc.org), y está dirigida por BreTel (Grupo Británico de Teledetección, Francia), SPW (Servicio Público de Valonia, Bélgica) y UJI (Universidad Jaume I, España). La Universidad de Estrasburgo (Francia) y Salzburgo (Austria) son socios.",
         participants: "PARTICIPANTES",
         supporters: "FINANCIADORES",
-        partners: "SOCIOS"
-    },
+        partners: "SOCIOS",
+        survey_end: "La encuesta permanecerá activa hasta el 7 de septiembre",
+        interview_button: "Responde a la entrevista",
+        interview_text: "Si ya respondiste la encuesta y deseas seguir colaborando, responde a esta entrevista antes del 14 de septiembre"
+      },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
         home_button: "En savoir plus sur nous",
@@ -71,7 +77,10 @@ var language = {
         funding_p: "Ce projet est financé par CoRdiNet, soutenu par NEREUS (Network of European Regions Using Space Technologies), EURISY (European association of space agencies), EARSC (European Association of Remote Sensing Companies) et BELSPO (Service public de programmation Politique scientifique, Belgique). Il est porté par BreTel (Bretagne Télédétection, France), SPW (Service Public de Wallonnie, Belgique) et UJI (Universtity Jacques Ier, Espagne). L’Université de Strasbourg (France) et l’Université de Salzburg (Autriche) viennent en support.",
         participants: "PARTICIPANTS",
         supporters: "PARTISANS",
-        partners: "PARTENAIRES"
+        partners: "PARTENAIRES",
+        survey_end: "Le questionnaire est ouvert jusqu'au 7 septembre",
+        interview_button: "Répondre à l'interview",
+        interview_text: "Si vous avez déjà rempli le questionnaire et que vous souhaitez poursuivre notre collaboration, répondez à cette interview jusqu'au 14 septembre"
     },
     it: {
         home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
@@ -94,7 +103,10 @@ var language = {
         funding_p: "Questo progetto è finanziato da CoRdiNet (www.Cordinet.net), sostenuto da NEREUS (Network of European Regions Using Space Technologies, www.nereus-regions.eu), EURISY (Associazione europea di agenzie spaziali, www.eurisy.org), EARSC (European Association of Remote Sensing Companies, www.earsc.org) e BELSPO (Servizio pubblico di programmazione politica scientifica, Belgio). <br>Il progetto è coordinato da BreTel (Brittany Remote Sensing Group, Francia), SPW (Public Service of Wallonia, Belgio) e da UJI (Universtity Jaume I, Spagna). L'Università di Strasburgo (Francia) e di Salisburgo (Austria) sono ugualmente partner dell’iniziativa.",
         participants: "PARTECIPANTI",
         supporters: "FINANZIATORI",
-        partners: "PARTNERS"
+        partners: "PARTNERS",
+        survey_end: "Il sondaggio sarà aperto fino al 7 settembre",
+        interview_button: "Rispondi all'intervista",
+        interview_text: "Se hai già compilato il sondaggio e desideri continuare a collaborare, rispondi a questa intervista prima del 14 settembre"
     },
     el: {
         home_subtitle: "H δράση \"Women in Copernicus\" θα εντοπίσει, θα καταγράψει, θα κατανοήσει και θα συγκεντρώσει ιστορίες γυναικών  από διάφορες Ευρωπαϊκές Περιφέρειες που εργάζονται στο Copernicus.",
@@ -117,7 +129,10 @@ var language = {
         funding_p: "Αυτή η πρωτοβουλία χρηματοδοτείται από το έργο CoRdiNet, υποστηρίζεται από το NEREUS (Δίκτυο Ευρωπαϊκών Περιφερειών που χρησιμοποιούν Διαστημικές Τεχνολογίες), την EURISY (Ευρωπαϊκή Ένωση Διαστημικών Υπηρεσιών) και την EARSC (Ευρωπαϊκή Ένωση Εταιρειών Τηλεπισκόπησης), και ηγείται η BreTel (η Ομάδα Τηλεπισκόπησης της Βρετάνης, Γαλλία), η SPW (Δημόσια Υπηρεσία της Βαλλονίας, Βέλγιο) και το UJI (Πανεπιστήμιο Jaume I, Ισπανία). Το Πανεπιστήμιο του Στρασβούργου (Γαλλία) και το Πανεπιστήμιο του Σάλτσμπουργκ (Αυστρία) είναι συνεργάτες υποστήριξης.",
         participants: "ΣΥΜΜΕΤΕΧΟΝΤΕΣ",
         supporters: "ΥΠΟΣΤΗΡΙΚΤΕΣ",
-        partners: "ΣΥΝΕΡΓΑΤΕΣ"
+        partners: "ΣΥΝΕΡΓΑΤΕΣ",
+        survey_end: "Η έρευνα θα είναι ανοιχτή έως τις 7 Σεπτεμβρίου",
+        interview_button: "Απάντηση στη συνέντευξη",
+        interview_text: "Εάν έχετε ήδη συμπληρώσει την έρευνα και θέλετε να συνεχίσετε τη συνεργασία, απαντήστε σε αυτήν τη συνέντευξη πριν από τις 14 Σεπτεμβρίου"
     },
     de: {
         home_subtitle: "Women in Copernicus soll die Geschichten von Frauen, die in europäischen Regionen im Copernicus Bereich arbeiten, sammeln, aufzeigen und verstehen. ",
@@ -140,7 +155,10 @@ var language = {
         funding_p: "Das Projekt wird finanziert von CoRdiNet und unterstützt von NEREUS (Network of European Regions Using Space Technologies), EURISY (European association of space agencies) EARSC (European Association of Remote Sensing Companies) und BELSPO (Föderale Wissenschaftspolitik und belgischer Vorsitz). <br>Die Projekleitung übernimmt BreTel (Brittany Remote Sensing Group, France), SPW (Public Service of Wallonia, Belgium) und UJI (Universtity Jaume I, Spain); die Universität von Straßburg (Frankreich) und die Universität Salzburg (Österreich) sind Projektpartner. ",
         participants: "TEILNEHMER",
         supporters: "FINANZIERER",
-        partners: "PARTNER"
+        partners: "PARTNER",
+        survey_end: "Umfrage wird bis zum 7. September geöffnet sein",
+        interview_button: "Beantworte das Interview",
+        interview_text: "Wenn Sie die Umfrage bereits ausgefüllt haben und weiter zusammenarbeiten möchten, beantworten Sie dieses Interview bitte vor dem 14. September."
     },
     nl: {
         home_subtitle: "Copernicus Women zal de verhalen van Copernicusvrouwen in Europese Regio's identificeren, inventariseren, begrijpen en samenbrengen.",
@@ -163,7 +181,10 @@ var language = {
         funding_p: "Dit project wordt gefinancierd door CoRdiNet (www.cordinet.net), ondersteund door NEREUS (Network of European Regions Using Space Technologies), EURISY (European association of space agencies), EARSC (European Association of Remote Sensing Companies) en BELSPO (Belgian Federal Science Policy Office). <br>Het wordt gedragen door BreTel (Brittany Remote Sensing Group, France), SPW (Public Service of Wallonia, Belgium) en UJI (Universtity Jaume I, Spain). De universiteit van Straatsburg (Frankrijk) en Salzburg (Oostenrijk) zijn ondersteunende partners. ",
         participants: "PARTICIPANTS",
         supporters: "SUPPORTERS",
-        partners: "PARTNERS"
+        partners: "PARTNERS",
+        survey_end: "Enquête blijft open tot 7 september",
+        interview_button: "Beantwoord het interview",
+        interview_text: "Als je de enquête al hebt ingevuld en je wilt blijven samenwerken, beantwoord dan dit interview voor 14 september"
     },
 }
 
@@ -188,8 +209,11 @@ var funding_p = document.getElementById("funding_p");
 var participants = document.getElementById("participants");
 var supporters = document.getElementById("supporters");
 var partners = document.getElementById("partners");
+var survey_end = document.getElementById("survey_end");
+var interview_button = document.getElementById("interview_button");
+var interview_text = document.getElementById("interview_text");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p, participants, supporters, partners];
+    survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_button, interview_text];
 
 changeLanguague();
 
