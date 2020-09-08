@@ -26,7 +26,7 @@ var language = {
         participants: "PARTICIPANTS",
         supporters: "SUPPORTERS",
         partners: "PARTNERS",
-        survey_end: "Survey will be open until 7th September",
+        survey_end: "Survey was closed on 7th September",
         interview_button: "Answer the interview",
         interview_text: "If you already filled in the survey and would like to continue collaborating, please answer this interview before 14th September"
     },
@@ -52,7 +52,7 @@ var language = {
         participants: "PARTICIPANTES",
         supporters: "FINANCIADORES",
         partners: "SOCIOS",
-        survey_end: "La encuesta permanecerá activa hasta el 7 de septiembre",
+        survey_end: "La encuesta se cerró el 7 de septiembre",
         interview_button: "Responde a la entrevista",
         interview_text: "Si ya respondiste la encuesta y deseas seguir colaborando, responde a esta entrevista antes del 14 de septiembre"
       },
@@ -78,7 +78,7 @@ var language = {
         participants: "PARTICIPANTS",
         supporters: "PARTISANS",
         partners: "PARTENAIRES",
-        survey_end: "Le questionnaire est ouvert jusqu'au 7 septembre",
+        survey_end: "Le questionnaire a été clôturée le 7 septembre",
         interview_button: "Répondre à l'interview",
         interview_text: "Si vous avez déjà rempli le questionnaire et que vous souhaitez poursuivre notre collaboration, répondez à cette interview jusqu'au 14 septembre"
     },
@@ -104,7 +104,7 @@ var language = {
         participants: "PARTECIPANTI",
         supporters: "FINANZIATORI",
         partners: "PARTNERS",
-        survey_end: "Il sondaggio sarà aperto fino al 7 settembre",
+        survey_end: "Il sondaggio è stato chiuso il 7 settembre",
         interview_button: "Rispondi all'intervista",
         interview_text: "Se hai già compilato il sondaggio e desideri continuare a collaborare, rispondi a questa intervista prima del 14 settembre"
     },
@@ -130,7 +130,7 @@ var language = {
         participants: "ΣΥΜΜΕΤΕΧΟΝΤΕΣ",
         supporters: "ΥΠΟΣΤΗΡΙΚΤΕΣ",
         partners: "ΣΥΝΕΡΓΑΤΕΣ",
-        survey_end: "Η έρευνα θα είναι ανοιχτή έως τις 7 Σεπτεμβρίου",
+        survey_end: "Η έρευνα έκλεισε στις 7 Σεπτεμβρίου",
         interview_button: "Απάντηση στη συνέντευξη",
         interview_text: "Εάν έχετε ήδη συμπληρώσει την έρευνα και θέλετε να συνεχίσετε τη συνεργασία, απαντήστε σε αυτήν τη συνέντευξη πριν από τις 14 Σεπτεμβρίου"
     },
@@ -156,7 +156,7 @@ var language = {
         participants: "TEILNEHMER",
         supporters: "FINANZIERER",
         partners: "PARTNER",
-        survey_end: "Umfrage wird bis zum 7. September geöffnet sein",
+        survey_end: "Die Umfrage wurde am 7. September geschlossen",
         interview_button: "Beantworte das Interview",
         interview_text: "Wenn Sie die Umfrage bereits ausgefüllt haben und weiter zusammenarbeiten möchten, beantworten Sie dieses Interview bitte vor dem 14. September."
     },
@@ -182,7 +182,7 @@ var language = {
         participants: "PARTICIPANTS",
         supporters: "SUPPORTERS",
         partners: "PARTNERS",
-        survey_end: "Enquête blijft open tot 7 september",
+        survey_end: "De enquête is op 7 september gesloten",
         interview_button: "Beantwoord het interview",
         interview_text: "Als je de enquête al hebt ingevuld en je wilt blijven samenwerken, beantwoord dan dit interview voor 14 september"
     },
@@ -202,7 +202,7 @@ var inspiration_title = document.getElementById("inspiration_title");
 var inspiration_p = document.getElementById("inspiration_p");
 var survey_title = document.getElementById("survey_title");
 var survey_p = document.getElementById("survey_p");
-var survey_button = document.getElementById("survey_button");
+// var survey_button = document.getElementById("survey_button");
 var funding_pretitle = document.getElementById("funding_pretitle");
 var funding_title = document.getElementById("funding_title");
 var funding_p = document.getElementById("funding_p");
@@ -213,7 +213,7 @@ var survey_end = document.getElementById("survey_end");
 var interview_button = document.getElementById("interview_button");
 var interview_text = document.getElementById("interview_text");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, survey_button, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_button, interview_text];
+    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_button, interview_text];
 
 changeLanguague();
 
