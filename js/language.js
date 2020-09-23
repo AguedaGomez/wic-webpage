@@ -28,7 +28,7 @@ var language = {
         partners: "PARTNERS",
         survey_end: "Survey was closed on 7th September",
         interview_button: "Answer the interview",
-        interview_text: "If you already filled in the survey and would like to continue collaborating, please answer this interview before 14th September"
+        interview_text: "Interview was closed on 14th September, thanks for your cooperation. Keep in touch to be updated!"
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
@@ -44,7 +44,7 @@ var language = {
         inspiration_title: "Inspiración",
         inspiration_p: "Queremos inspirar e incentivar a mujeres y niñas a que estudien y apliquen para esos puestros de trabajo",
         survey_title: "¿Eres una mujer que trabaja en copernicus?",
-        survey_p: "Esta encuesta se dirige a mujeres que trabajan (o han trabajado) con datos o en el ámbito de Copernicus (por favor, responde únicamente si este es tu caso). La encuesta contiene 6 secciones (demografía, antecedentes, barreras, facilitadores, opciones educativas y final). Responderla sólo te llevará 10 minutos. Gracias por tu tiempo y compromiso con esta iniciativa. <br>* el género femenino es independiente del sexo biológico",
+        survey_p: "Esta encuesta se dirige a mujeres* que trabajan (o han trabajado) con datos o en el ámbito de Copernicus (por favor, responde únicamente si este es tu caso). La encuesta contiene 6 secciones (demografía, antecedentes, barreras, facilitadores, opciones educativas y final). Responderla sólo te llevará 10 minutos. Gracias por tu tiempo y compromiso con esta iniciativa. <br>* el género femenino es independiente del sexo biológico",
         survey_button: "Responde a la encuesta",
         funding_pretitle: "Quienes somos",
         funding_title: "Financiación y <span> Socios. </span>",
@@ -54,7 +54,7 @@ var language = {
         partners: "SOCIOS",
         survey_end: "La encuesta se cerró el 7 de septiembre",
         interview_button: "Responde a la entrevista",
-        interview_text: "Si ya respondiste la encuesta y deseas seguir colaborando, responde a esta entrevista antes del 14 de septiembre"
+        interview_text: "La entrevista se cerró el 14 de septiembre, gracias por tu cooperación. ¡Mantente en contacto para estar actualizado!"
       },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
@@ -70,7 +70,7 @@ var language = {
         inspiration_title: "Inspiration",
         inspiration_p: "Nous voulons inspirer et encourager les filles / femmes à étudier et à postuler à ces métiers liés à Copernicus",
         survey_title: "Êtes-vous une femme travaillant en lien avec Copernicus?",
-        survey_p: "Cette enquête s’adresse aux femmes européennes travaillant ou ayant travaillé avec des données Copernicus ou dans les domaines d’activité liés à Copernicus. L’enquête compte 6 sections (démographique, parcours et carrière, barrières, facilitateurs, choix d’éducation et conclusion) et 10 minutes suffisent pour y répondre. Merci pour votre temps et votre intérêt pour cette initiative. <br>* le genre féminin est indépendant du sexe biologique",
+        survey_p: "Cette enquête s’adresse aux femmes* européennes travaillant ou ayant travaillé avec des données Copernicus ou dans les domaines d’activité liés à Copernicus. L’enquête compte 6 sections (démographique, parcours et carrière, barrières, facilitateurs, choix d’éducation et conclusion) et 10 minutes suffisent pour y répondre. Merci pour votre temps et votre intérêt pour cette initiative. <br>* le genre féminin est indépendant du sexe biologique",
         survey_button: "RÉPONDRE À L'ENQUÊTE",
         funding_pretitle: "QUI NOUS SOMMES",
         funding_title: "Financement et <span> partenaires. </span>",
@@ -80,7 +80,7 @@ var language = {
         partners: "PARTENAIRES",
         survey_end: "Le questionnaire a été clôturée le 7 septembre",
         interview_button: "Répondre à l'interview",
-        interview_text: "Si vous avez déjà rempli le questionnaire et que vous souhaitez poursuivre notre collaboration, répondez à cette interview jusqu'au 14 septembre"
+        interview_text: "L'entretien a été clôturé le 14 septembre, merci pour votre coopération. Restez en contact pour être mis à jour!"
     },
     it: {
         home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
@@ -96,7 +96,7 @@ var language = {
         inspiration_title: "Ispirazione",
         inspiration_p: "Vogliamo ispirare e incoraggiare le ragazze / donne a studiare e candidarsi per queste posizioni",
         survey_title: "Sei una donna che lavora a Copernicus?",
-        survey_p: "Quest’inchiesta è rivolta alle donne europee che lavorano (o hanno lavorato) con i dati e i servizi di Copernicus (si prega di rispondere solo in questo caso). L’inchiesta include 6 sezioni (dati demografici, background, barriere, fattori facilitanti, scelte di studio ed una parte finale). Rispondere all’inchiesta dovrebbe richiedere solo 10 minuti. La ringraziamo per il suo tempo e il suo contributo. <br>* Il genere femminile è indipendente dal sesso biologico",
+        survey_p: "Quest’inchiesta è rivolta alle donne* europee che lavorano (o hanno lavorato) con i dati e i servizi di Copernicus (si prega di rispondere solo in questo caso). L’inchiesta include 6 sezioni (dati demografici, background, barriere, fattori facilitanti, scelte di studio ed una parte finale). Rispondere all’inchiesta dovrebbe richiedere solo 10 minuti. La ringraziamo per il suo tempo e il suo contributo. <br>* Il genere femminile è indipendente dal sesso biologico",
         survey_button: "COMPILA IL QUESTIONARIO",
         funding_pretitle: "CHI SIAMO",
         funding_title: "Finanziamenti e <span> partner.</span>",
@@ -106,7 +106,7 @@ var language = {
         partners: "PARTNERS",
         survey_end: "Il sondaggio è stato chiuso il 7 settembre",
         interview_button: "Rispondi all'intervista",
-        interview_text: "Se hai già compilato il sondaggio e desideri continuare a collaborare, rispondi a questa intervista prima del 14 settembre"
+        interview_text: "L'intervista si è conclusa il 14 settembre, grazie per la collaborazione. Resta in contatto per essere aggiornato!"
     },
     el: {
         home_subtitle: "H δράση \"Women in Copernicus\" θα εντοπίσει, θα καταγράψει, θα κατανοήσει και θα συγκεντρώσει ιστορίες γυναικών  από διάφορες Ευρωπαϊκές Περιφέρειες που εργάζονται στο Copernicus.",
@@ -132,7 +132,7 @@ var language = {
         partners: "ΣΥΝΕΡΓΑΤΕΣ",
         survey_end: "Η έρευνα έκλεισε στις 7 Σεπτεμβρίου",
         interview_button: "Απάντηση στη συνέντευξη",
-        interview_text: "Εάν έχετε ήδη συμπληρώσει την έρευνα και θέλετε να συνεχίσετε τη συνεργασία, απαντήστε σε αυτήν τη συνέντευξη πριν από τις 14 Σεπτεμβρίου"
+        interview_text: "Η συνέντευξη έκλεισε στις 14 Σεπτεμβρίου, ευχαριστώ για τη συνεργασία σας. Μείνετε σε επαφή για ενημέρωση!"
     },
     de: {
         home_subtitle: "Women in Copernicus soll die Geschichten von Frauen, die in europäischen Regionen im Copernicus Bereich arbeiten, sammeln, aufzeigen und verstehen. ",
@@ -158,7 +158,7 @@ var language = {
         partners: "PARTNER",
         survey_end: "Die Umfrage wurde am 7. September geschlossen",
         interview_button: "Beantworte das Interview",
-        interview_text: "Wenn Sie die Umfrage bereits ausgefüllt haben und weiter zusammenarbeiten möchten, beantworten Sie dieses Interview bitte vor dem 14. September."
+        interview_text: "Das Interview wurde am 14. September geschlossen, danke für Ihre Mitarbeit. Bleiben Sie in Kontakt, um auf dem Laufenden zu bleiben!"
     },
     nl: {
         home_subtitle: "Copernicus Women zal de verhalen van Copernicusvrouwen in Europese Regio's identificeren, inventariseren, begrijpen en samenbrengen.",
@@ -174,7 +174,7 @@ var language = {
         inspiration_title: "Inspiratie",
         inspiration_p: "We willen meisjes / vrouwen inspireren en aanmoedigen om te studeren en zich kandidaat te stellen voor deze posities",
         survey_title: "Ben jij een vrouw die werkt in Copernicus?",
-        survey_p: "Deze enquête richt zich tot Europese vrouwen die werken of gewerkt hebben met Copernicus-gegevens of op aan Copernicus gelinkte activiteitengebieden. De enquête omvat zes secties (demografie, achtergrond en loopbaan, hinderpalen, facilitatoren, opleidingskeuzes en conclusie) en neemt nauwelijks tien minuten in beslag. Bedankt voor uw tijd en aandacht voor dit initiatief. <br>* genderidentiteit bij vrouwen staat los van het biologische geslacht",
+        survey_p: "Deze enquête richt zich tot Europese vrouwen* die werken of gewerkt hebben met Copernicus-gegevens of op aan Copernicus gelinkte activiteitengebieden. De enquête omvat zes secties (demografie, achtergrond en loopbaan, hinderpalen, facilitatoren, opleidingskeuzes en conclusie) en neemt nauwelijks tien minuten in beslag. Bedankt voor uw tijd en aandacht voor dit initiatief. <br>* genderidentiteit bij vrouwen staat los van het biologische geslacht",
         survey_button: "VUL DE VRAGENLIJST IN",
         funding_pretitle: "WIE ZIJN WE?",
         funding_title: "Financiering en <span> Partners.</span>",
@@ -184,7 +184,7 @@ var language = {
         partners: "PARTNERS",
         survey_end: "De enquête is op 7 september gesloten",
         interview_button: "Beantwoord het interview",
-        interview_text: "Als je de enquête al hebt ingevuld en je wilt blijven samenwerken, beantwoord dan dit interview voor 14 september"
+        interview_text: "Het interview is op 14 september gesloten, bedankt voor uw medewerking. Blijf op de hoogte om op de hoogte te blijven!"
     },
 }
 
@@ -210,10 +210,10 @@ var participants = document.getElementById("participants");
 var supporters = document.getElementById("supporters");
 var partners = document.getElementById("partners");
 var survey_end = document.getElementById("survey_end");
-var interview_button = document.getElementById("interview_button");
+// var interview_button = document.getElementById("interview_button");
 var interview_text = document.getElementById("interview_text");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_button, interview_text];
+    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_text];
 
 changeLanguague();
 
