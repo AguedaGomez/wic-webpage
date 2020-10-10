@@ -51,6 +51,18 @@
 	<link rel="stylesheet" href="css/nice-select.css">
 	<link rel="stylesheet" href="css/main.css">
 
+	<!-- The core Firebase JS SDK is always required and must be listed first -->
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
+
+	<!-- TODO: Add SDKs for Firebase products that you want to use
+		 https://firebase.google.com/docs/web/setup#available-libraries -->
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
+	<script>
+
+	</script>
+
 </head>
 
 <body>
@@ -63,22 +75,11 @@
 						<h1 class="">
 							<img src="img/horizontal-logo.png" alt="Women in Copernicus logo" class="img-fluid">
 						</h1>
-
 						<p id="home_subtitle" class="mx-auto mb-40">
 							Copernicus Women will identify, inventory, understand and gather the stories of
 							Copernicus Women in European Regions.
 						</p>
-						<a href="https://womenincopernicus.eu/#action" class="primary-btn" id="home_button">More About
-							Us</a>
-
-						<!-- 		<div class="d-flex align-items-center mt-60">
-							<a id="play-home-video" class="video-play-button" href="https://www.youtube.com/">
-								<span></span>
-							</a>
-							<div class="watch_video">
-								<h5 id="video_presentation">Watch Project Presentation</h5>
-							</div>
-						</div> -->
+						<a href="https://womenincopernicus.eu/" class="primary-btn" id="home_button">Main Page</a>
 					</div>
 				</div>
 				<div class="col-lg-6 col-md-12 no-padding home-banner-right d-flex fullscreen align-items-end">
@@ -96,63 +97,67 @@
 				<div class="col-lg-9 text-center">
 					<div class="section-title">
 						<p>Form</p>
-						<h1>Fill in your info if you want to get <span>featured</span> <br> by Women in Copernicus.</h1>
+						<h1>Fill in your info to get <span>featured</span> <br> by Women in Copernicus.</h1>
 					</div>
 					<p>
-						We will build a section in the webpage to highlight some of the quotes and women in
-						Copernicus who contributed to the project.
-						<br>
-						This a way to say thank you to all of you!
-						<br>
-						Send us your information if you want to be featured in the webpage and social media by
-						filling this form until XXXXXX
+						This section gives face and voice to all the participants to this WIC project.
+						<br>Thank you to all of you!<br>
+						Send us your information, photo and quote to be visible on the carrousel of this webpage and the
+						social media by filling this form until 30th October.
 					</p>
 					<br>
 					<div class="row">
 						<div class="col-lg-8 col-md-8 offset-md-2">
-							<form action="#">
+							<form action="javascript:void(0);" onsubmit="sendForm()">
 								<div class="mt-10">
-									<input type="text" name="first_name" placeholder="Name"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name'" required
+									<input type="text" id="name" name="name" placeholder="Name (*)"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Name (*)'" required
 										class="single-input-primary">
 								</div>
 								<div class="mt-10">
-									<input type="text" name="contry" placeholder="Country"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Country'" required
-										class="single-input-primary">
+									<input type="text" id="country" name="country" placeholder="Country (*)"
+										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Country (*)'"
+										required class="single-input-primary">
 								</div>
-								<div class="mt-10">
+								<!-- <div class="mt-10">
 									<input type="text" name="affiliation" placeholder="Affiliation"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Affiliation'"
 										class="single-input-primary">
-								</div>
+								</div> -->
 								<div class="mt-10">
-									<input type="text" name="quote" placeholder="Quote to highlight"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Quote to highlight'"
+									<input type="text" id="quote" name="quote"
+										placeholder="Quote you would like to highlight" onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Quote you would like to highlight'"
 										class="single-input-primary">
 								</div>
 								<div class="mt-10">
-									<input type="text" name="linkedin" placeholder="LinkedIn"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'LinkedIn'"
-										class="single-input-primary">
+									<input type="text" id="socialmedia" name="socialmedia"
+										placeholder="Social media link" onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Social media link'" class="single-input-primary">
 								</div>
-								<div class="mt-10">
+								<!-- 	<div class="mt-10">
 									<input type="text" name="twitter" placeholder="Twitter"
 										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Twitter'"
 										class="single-input-primary">
-								</div>
+								</div> -->
 								<div class="mt-10">
-									<input type="text" name="other" placeholder="Other (website…)"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Other (website…)'"
+									<input type="text" id="other" name="other" placeholder="Other link (website…)"
+										onfocus="this.placeholder = ''"
+										onblur="this.placeholder = 'Other link (website…)'"
 										class="single-input-primary">
 								</div>
 								<div class="mt-10">
-									Upload Profile Picture
-									<input type="file" id="files" />
+									Upload Profile Picture (*)
+									<input type="file" id="files" multiple="false" required />
+								</div>
+								<div class="mt-10">
+									The picture will look better in the carrousel if vertical
+									<br>
+									(*) Required fields
 								</div>
 								<br>
 
-								<div class="mt-10">
+								<div id="result" class="mt-10">
 									<button class="primary-btn">Send!</button>
 								</div>
 
@@ -187,112 +192,26 @@
 				</div> -->
 				<div class="col-lg-12 col-md-12">
 					<p style="text-align: center;">THANKS ALL FOR YOUR COLLABORATION!</p>
-					<div class="active-gallery-carousel owl-carousel-women">
+					<div id="women_carrousel" class="active-gallery-carousel owl-carousel-women">
 						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery1.jpg" alt="">
+						<!-- 				<div class="single-gallery">
+							<img class="img-fluid" src="img/project/gallery1.jpg">
 							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
+								<h4>"Example <br> Quote" </h4>
+								<p>Name</p>
+								<p>Country</p>
 							</div>
-							<div class="light-box">
-								<a href="img/project/gallery1.jpg" class="img-popup">
+							<div class="light-box" style="width: fit-content;">
+								<a target="_blank" href="http://www.google.com"
+									style="padding-left: 15px; padding-right: 15px">
 									<span class="lnr lnr-link"></span>
 								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery2.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery2.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
+								<a target="_blank" href="http://www.google.com"
+									style="padding-left: 15px; padding-right: 15px">
+									<span class="lnr lnr-earth"></span>
 								</a>
 							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery3.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery3.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery4.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery4.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery5.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery5.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery6.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery6.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
-						<!-- single gallery -->
-						<div class="single-gallery">
-							<img class="img-fluid" src="img/project/gallery7.jpg" alt="">
-							<div class="gallery-content">
-								<p>Proper Guided Tour</p>
-								<h4>Santorini Island Dream <br>
-									Holiday and Fun <br>
-									Package</h4>
-							</div>
-							<div class="light-box">
-								<a href="img/project/gallery7.jpg" class="img-popup">
-									<span class="lnr lnr-link"></span>
-								</a>
-							</div>
-						</div>
+						</div> -->
 					</div>
 				</div>
 			</div>
@@ -506,34 +425,8 @@
 				}
 			}
 		})
-		$('.owl-carousel-women').owlCarousel({
-			loop: true,
-			margin: 10,
-			autoplay:true,
-    		autoplayTimeout:2000,
-			responsiveClass: true,
-			responsive: {
-				0: {
-					items: 1				
-				},
-				600: {
-					items: 3				
-				},
-				1000: {
-					items: 5				
-				}
-			}
-		})
 
 	</script>
-
-	<!-- The core Firebase JS SDK is always required and must be listed first -->
-	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
-
-	<!-- TODO: Add SDKs for Firebase products that you want to use
-     https://firebase.google.com/docs/web/setup#available-libraries -->
-	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
-	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-storage.js"></script>
 
 	<script>
 		// Your web app's Firebase configuration
@@ -551,61 +444,171 @@
 		firebase.initializeApp(firebaseConfig);
 		firebase.analytics();
 
-		// Get a reference to the storage service, which is used to create references in your storage bucket
-		var storage = firebase.storage();
+		var db = firebase.firestore();
+
+		db.collection("women").get().then(function (querySnapshot) {
+
+			//these 3 lines kill the owl, and returns the markup to the initial state
+			$('.owl-carousel-women').trigger('destroy.owl.carousel');
+			$('.owl-carousel-women').find('.owl-stage-outer').children().unwrap();
+			$('.owl-carousel-women').removeClass("owl-center owl-loaded owl-text-select-on");
+
+			content = '';
+
+			querySnapshot.forEach(function (doc) {
+				// doc.data() is never undefined for query doc snapshots
+				console.log(doc.id, " => ", doc.data());
+
+				var w = doc.data();
+
+				content = content + '<div class="single-gallery">' +
+					'<img class="img-fluid" src="' + w.downloadURL + '">' +
+					'<div class="gallery-content">';
+
+				if (w.quote && w.quote != '') {
+					content = content + '<h4>"' + w.quote + '"</h4>';
+				}
+				content = content + '<p>' + w.name + '</p>' +
+					'<p>' + w.country + '</p>' +
+					'</div>' +
+					'<div class="light-box" style="width: fit-content;">';
+
+				if (w.socialmedia && w.socialmedia != '') {
+
+					content = content + '<a target="_blank" href="' + w.socialmedia + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="lnr lnr-link"></span>' +
+						'</a>';
+				}
+				if (w.other && w.other != '') {
+					content = content + '<a target="_blank" href="' + w.other + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="lnr lnr-earth"></span>' +
+						'</a>';
+				}
+
+				content = content + '</div>' +
+					'</div>';
+			});
+
+			$('.owl-carousel-women').html(content);
+			$('.owl-carousel-women').owlCarousel({
+				loop: true,
+				margin: 10,
+				autoplay: false,
+				autoplayTimeout: 2000,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					600: {
+						items: 3
+					},
+					1000: {
+						items: 5
+					}
+				}
+			})
+		});
+		//$('.owl-carousel-women').trigger('refresh.owl.carousel');
+
+
+		// Create a root reference
+		var storageRef = firebase.storage().ref();
 
 		var files = [];
+		var downloadURL = null;
 		document.getElementById("files").addEventListener("change", function (e) {
 			files = e.target.files;
+
+			var file = files[0];
+
+			// Create the file metadata
+			var metadata = {
+				contentType: 'image/jpeg'
+			};
+
+			// Upload file and metadata to the object 'images/mountains.jpg'
+			var uploadTask = storageRef.child('images/' + file.name).put(file, metadata);
+
+			// Listen for state changes, errors, and completion of the upload.
+			uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
+				function (snapshot) {
+					// Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
+					var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
+					console.log('Upload is ' + progress + '% done');
+					switch (snapshot.state) {
+						case firebase.storage.TaskState.PAUSED: // or 'paused'
+							console.log('Upload is paused');
+							break;
+						case firebase.storage.TaskState.RUNNING: // or 'running'
+							console.log('Upload is running');
+							break;
+					}
+				}, function (error) {
+
+					// A full list of error codes is available at
+					// https://firebase.google.com/docs/storage/web/handle-errors
+					switch (error.code) {
+						case 'storage/unauthorized':
+							// User doesn't have permission to access the object
+							break;
+
+						case 'storage/canceled':
+							// User canceled the upload
+							break;
+						case 'storage/unknown':
+							// Unknown error occurred, inspect error.serverResponse
+							break;
+					}
+				}, function () {
+					// Upload completed successfully, now we can get the download URL
+					uploadTask.snapshot.ref.getDownloadURL().then(function (dURL) {
+						downloadURL = dURL;
+						console.log('File available at', downloadURL);
+					});
+				});
+
 		});
 
-		// File or Blob named mountains.jpg
-		var file = null;
+		function sendForm() {
+			var name = document.getElementById("name").value;
+			var country = document.getElementById("country").value;
+			var quote = document.getElementById("quote").value;
+			var socialmedia = document.getElementById("socialmedia").value;
+			var other = document.getElementById("other").value;
 
-		// Create the file metadata
-		var metadata = {
-			contentType: 'image/jpeg'
-		};
+			if (downloadURL && name != "" && country != "") {
 
-		// Upload file and metadata to the object 'images/mountains.jpg'
-		var uploadTask = storageRef.child('images/' + file.name).put(file, metadata);
-/*
-				// Listen for state changes, errors, and completion of the upload.
-				uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
-					function (snapshot) {
-						// Get task progress, including the number of bytes uploaded and the total number of bytes to be uploaded
-						var progress = (snapshot.bytesTransferred / snapshot.totalBytes) * 100;
-						console.log('Upload is ' + progress + '% done');
-						switch (snapshot.state) {
-							case firebase.storage.TaskState.PAUSED: // or 'paused'
-								console.log('Upload is paused');
-								break;
-							case firebase.storage.TaskState.RUNNING: // or 'running'
-								console.log('Upload is running');
-								break;
-						}
-					}, function (error) {
-		
-						// A full list of error codes is available at
-						// https://firebase.google.com/docs/storage/web/handle-errors
-						switch (error.code) {
-							case 'storage/unauthorized':
-								// User doesn't have permission to access the object
-								break;
-		
-							case 'storage/canceled':
-								// User canceled the upload
-								break;
-							case 'storage/unknown':
-								// Unknown error occurred, inspect error.serverResponse
-								break;
-						}
-					}, function () {
-						// Upload completed successfully, now we can get the download URL
-						uploadTask.snapshot.ref.getDownloadURL().then(function (downloadURL) {
-							console.log('File available at', downloadURL);
-						});
-					}); */
+				console.log("form ok");
+
+				// Add a second document with a generated ID.
+				db.collection("women").add({
+					name: name,
+					country: country,
+					quote: quote,
+					socialmedia: socialmedia,
+					other: other,
+					downloadURL: downloadURL
+
+				})
+					.then(function (docRef) {
+						console.log("Document written with ID: ", docRef.id);
+						document.getElementById("result").innerHTML = "<p> Thanks! Your info has been sent, reload this page to see your picture featured. The 30th October we will place the carrousel in the main webpage! <br> Contact copernicuswomen@gmail.com if any problem or question regarding the form and pictures. </p> ";
+					})
+					.catch(function (error) {
+						console.error("Error adding document: ", error);
+					});
+
+			} else {
+
+				document.getElementById("result").innerHTML = "<p> Check all required data is set before sending. </p>  <button class='primary-btn'>Send!</button>";
+
+
+			}
+
+
+		}
+
 
 
 	</script>
