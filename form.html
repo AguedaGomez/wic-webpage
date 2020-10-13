@@ -465,11 +465,15 @@
 					'<img class="img-fluid" src="' + w.downloadURL + '">' +
 					'<div class="gallery-content">';
 
-				if (w.quote && w.quote != '') {
+				if (w.quote && w.quote != '' && w.quote.length < 40) {
 					content = content + '<h4>"' + w.quote + '"</h4>';
+				} else if (w.quote && w.quote != '' && w.quote.length < 80) {
+					content = content + '<h5>"' + w.quote + '"</h5>';
+				} else if (w.quote && w.quote != '' && w.quote.length >= 80) {
+					content = content + '<h6>"' + w.quote + '"</h6>';
 				}
-				content = content + '<p>' + w.name + '</p>' +
-					'<p>' + w.country + '</p>' +
+				content = content + '<p>' + w.name +
+					'<br>' + w.country + '</p>' +
 					'</div>' +
 					'<div class="light-box" style="width: fit-content;">';
 

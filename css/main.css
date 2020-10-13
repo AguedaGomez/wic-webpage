@@ -2557,9 +2557,9 @@ h6 {
     transition: all 0.3s ease 0s; }
   .single-gallery .gallery-content {
     position: absolute;
-    padding: 30px;
+    padding: 10px;
     left: -10%;
-    bottom: -20%;
+    top: 70px;
     z-index: 999;
     opacity: 0;
     visibility: hidden;
@@ -2572,12 +2572,20 @@ h6 {
       color: #4ba0f9;
       font-weight: 400; }
     .single-gallery .gallery-content h4 {
-      font-size: 24px;
+      font-size: 25px;
       color: #fff;
-      line-height: 35px !important; }
+      line-height: 30px !important; }
+    .single-gallery .gallery-content h5 {
+      font-size: 20px;
+      color: #fff;
+      line-height: 25px !important; }
+    .single-gallery .gallery-content h6 {
+      font-size: 15px;
+      color: #fff;
+      line-height: 20px !important; }
   .single-gallery .light-box {
     position: absolute;
-    top: 30px;
+    top: 20px;
     right: -10px;
     background: #fff;
     z-index: 999;
@@ -2601,8 +2609,8 @@ h6 {
     bottom: 20px;
     left: 0; }
   .single-gallery:hover .light-box {
-    right: 30px;
-    top: 30px;
+    right: 20px;
+    top: 20px;
     opacity: 1;
     visibility: visible; }
 
