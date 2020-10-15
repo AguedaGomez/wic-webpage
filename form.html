@@ -50,6 +50,8 @@
 	<link rel="stylesheet" href="css/hexagons.min.css">
 	<link rel="stylesheet" href="css/nice-select.css">
 	<link rel="stylesheet" href="css/main.css">
+	<link rel="stylesheet" href="css/fontawesome.css">
+	<link rel="stylesheet" href="css/brands.css">
 
 	<!-- The core Firebase JS SDK is always required and must be listed first -->
 	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-app.js"></script>
@@ -103,7 +105,7 @@
 						This section gives face and voice to all the participants to this WIC project.
 						<br>Thank you to all of you!<br>
 						Send us your information, photo and quote to be visible on the carrousel of this webpage and the
-						social media by filling this form until 30th October.
+						social media by filling this form.
 					</p>
 					<br>
 					<div class="row">
@@ -125,21 +127,22 @@
 										class="single-input-primary">
 								</div> -->
 								<div class="mt-10">
-									<input type="text" id="quote" name="quote"
-										placeholder="Quote you would like to highlight" onfocus="this.placeholder = ''"
+									<input type="text" id="quote" name="quote" maxlength="100"
+										placeholder="Quote you would like to highlight"
+										onfocus="this.placeholder = '(max characters: 100)'"
 										onblur="this.placeholder = 'Quote you would like to highlight'"
 										class="single-input-primary">
 								</div>
 								<div class="mt-10">
-									<input type="text" id="socialmedia" name="socialmedia"
-										placeholder="Social media link" onfocus="this.placeholder = ''"
-										onblur="this.placeholder = 'Social media link'" class="single-input-primary">
+									<input type="text" id="linkedin" name="socialmedia" placeholder="LinkedIn"
+										onfocus="this.placeholder = 'https://www.linkedin.com/in/...'"
+										onblur="this.placeholder = 'LinkedIn'" class="single-input-primary">
 								</div>
-								<!-- 	<div class="mt-10">
-									<input type="text" name="twitter" placeholder="Twitter"
-										onfocus="this.placeholder = ''" onblur="this.placeholder = 'Twitter'"
-										class="single-input-primary">
-								</div> -->
+								<div class="mt-10">
+									<input type="text" id="twitter" name="twitter" placeholder="Twitter"
+										onfocus="this.placeholder = 'https://twitter.com/...'"
+										onblur="this.placeholder = 'Twitter'" class="single-input-primary">
+								</div>
 								<div class="mt-10">
 									<input type="text" id="other" name="other" placeholder="Other link (website…)"
 										onfocus="this.placeholder = ''"
@@ -151,7 +154,7 @@
 									<input type="file" id="files" multiple="false" required />
 								</div>
 								<div class="mt-10">
-									The picture will look better in the carrousel if vertical
+									The picture will look better in the carrousel if vertical, if possible 300 x 450 px.
 									<br>
 									(*) Required fields
 								</div>
@@ -477,15 +480,21 @@
 					'</div>' +
 					'<div class="light-box" style="width: fit-content;">';
 
-				if (w.socialmedia && w.socialmedia != '') {
+				if (w.twitter && w.twitter != '') {
 
-					content = content + '<a target="_blank" href="' + w.socialmedia + '" style="padding-left: 15px; padding-right: 15px">' +
-						'<span class="lnr lnr-link"></span>' +
+					content = content + '<a target="_blank" href="' + w.twitter + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="fa fa-twitter"></span>' +
+						'</a>';
+				}
+				if (w.linkedin && w.linkedin != '') {
+
+					content = content + '<a target="_blank" href="' + w.linkedin + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="fa fa-linkedin"></span>' +
 						'</a>';
 				}
 				if (w.other && w.other != '') {
 					content = content + '<a target="_blank" href="' + w.other + '" style="padding-left: 15px; padding-right: 15px">' +
-						'<span class="lnr lnr-earth"></span>' +
+						'<span class="fa fa-globe"></span>' +
 						'</a>';
 				}
 
@@ -532,7 +541,7 @@
 			};
 
 			// Upload file and metadata to the object 'images/mountains.jpg'
-			var uploadTask = storageRef.child('images/' + file.name).put(file, metadata);
+			var uploadTask = storageRef.child('images/' + Date.now() + '-' + file.name).put(file, metadata);
 
 			// Listen for state changes, errors, and completion of the upload.
 			uploadTask.on(firebase.storage.TaskEvent.STATE_CHANGED, // or 'state_changed'
@@ -578,7 +587,8 @@
 			var name = document.getElementById("name").value;
 			var country = document.getElementById("country").value;
 			var quote = document.getElementById("quote").value;
-			var socialmedia = document.getElementById("socialmedia").value;
+			var linkedin = document.getElementById("linkedin").value;
+			var twitter = document.getElementById("twitter").value;
 			var other = document.getElementById("other").value;
 
 			if (downloadURL && name != "" && country != "") {
@@ -590,14 +600,15 @@
 					name: name,
 					country: country,
 					quote: quote,
-					socialmedia: socialmedia,
+					twitter: twitter,
+					linkedin: linkedin,
 					other: other,
 					downloadURL: downloadURL
 
 				})
 					.then(function (docRef) {
 						console.log("Document written with ID: ", docRef.id);
-						document.getElementById("result").innerHTML = "<p> Thanks! Your info has been sent, reload this page to see your picture featured. The 30th October we will place the carrousel in the main webpage! <br> Contact copernicuswomen@gmail.com if any problem or question regarding the form and pictures. </p> ";
+						document.getElementById("result").innerHTML = "<p> Thanks! Your info has been sent, reload this page to see your picture featured. <br> Contact copernicuswomen@gmail.com if any problem or question regarding the form and pictures. </p> ";
 					})
 					.catch(function (error) {
 						console.error("Error adding document: ", error);
