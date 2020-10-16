@@ -183,14 +183,15 @@
 						answer.
 						<br> Thank you
 						for your time and involvement</p>
-				<!-- 	<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGqBH6Z6VkqyKns0UvqGgReYc1EZ4xxEisRC7d1NcSJURFFZNExJUzM0VUEyU1VWNzFHTjBMMVdaQi4u"
+					<!-- 	<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGqBH6Z6VkqyKns0UvqGgReYc1EZ4xxEisRC7d1NcSJURFFZNExJUzM0VUEyU1VWNzFHTjBMMVdaQi4u"
 						target="_blank" class="primary-btn" id="survey_button" title="Click to start the survey">
 						Fill in the survey</a> -->
-						<p id="survey_end">Survey was closed on 7th September</p>
+					<p id="survey_end">Survey was closed on 7th September</p>
 					<!-- 	<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGqBH6Z6VkqyKns0UvqGgReYc1EZ4xxEisRC7d1NcSJUN045UzZQMzlON0g0NkpMNDU4NzJaMk5HUC4u"
 						target="_blank" class="primary-btn" id="interview_button" title="Click to start the survey">
 						Answer the interview</a> -->
-						<p id="interview_text">Interview was closed on 14th September, thanks for your cooperation. Keep in touch to be updated!</p>
+					<p id="interview_text">Interview was closed on 14th September, thanks for your cooperation. Keep in
+						touch to be updated!</p>
 
 				</div>
 				<img src="img/cta-bg-shape.png" alt="earth shape" class="cta-shape img-fluid">
@@ -198,6 +199,29 @@
 		</div>
 	</section>
 	<!--================ End CTA Area =================-->
+
+	<section class="portfolio-area section-gap">
+		<div class="container-fluid">
+			<div class="row justify-content-center">
+				<div class="col-lg-9 text-center">
+					<div class="section-title">
+						<p id="thanks_pretitle">THANKS</p>
+						<h1 id="thanks_title">Thanks all for your <br> <span>collaboration</span>!</h1>
+					</div>
+					<p id="thanks_text">
+						This section wants to give face and voice to all the participants to this WIC project.
+					</p>
+					<br>
+				</div>
+			</div>
+			<div class="row align-items-center">
+				<div class="col-lg-12 col-md-12">
+					<div id="women_carrousel" class="active-gallery-carousel owl-carousel-women">
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
 
 	<!--================ Start Service Area =================-->
 	<section id="funding" class="service-area section-gap">
@@ -352,8 +376,8 @@
 					<div class="footer-social d-flex align-items-center">
 						<a href="https://twitter.com/WomenCopernicus" target="_blank"
 							title="Women in Copernicus Twitter"><i class="fa fa-twitter"></i></a>
-						<a href="mailto:women.in.copernicus@gmail.com"
-							title="Send mail to Women in Copernicus"><i class="fa fa-envelope"></i></a>
+						<a href="mailto:women.in.copernicus@gmail.com" title="Send mail to Women in Copernicus"><i
+								class="fa fa-envelope"></i></a>
 					</div>
 				</div>
 				<div class="col-md-6 col-sm-6">
@@ -439,6 +463,8 @@
 	<!-- TODO: Add SDKs for Firebase products that you want to use
      https://firebase.google.com/docs/web/setup#available-libraries -->
 	<script src="https://www.gstatic.com/firebasejs/7.16.0/firebase-analytics.js"></script>
+	<script src="https://www.gstatic.com/firebasejs/7.22.1/firebase-firestore.js"></script>
+
 
 	<script>
 		// Your web app's Firebase configuration
@@ -455,6 +481,114 @@
 		// Initialize Firebase
 		firebase.initializeApp(firebaseConfig);
 		firebase.analytics();
+
+		var db = firebase.firestore();
+
+		db.collection("women").get().then(function (querySnapshot) {
+
+			//these 3 lines kill the owl, and returns the markup to the initial state
+			$('.owl-carousel-women').trigger('destroy.owl.carousel');
+			$('.owl-carousel-women').find('.owl-stage-outer').children().unwrap();
+			$('.owl-carousel-women').removeClass("owl-center owl-loaded owl-text-select-on");
+
+			content = '';
+
+			women = [];
+
+			querySnapshot.forEach(function (doc) {
+				// doc.data() is never undefined for query doc snapshots
+				// console.log(doc.id, " => ", doc.data());
+
+				var w = doc.data();
+
+				content = '<div class="single-gallery">' +
+					'<img class="img-fluid" src="' + w.downloadURL + '">' +
+					'<div class="gallery-content">';
+
+				if (w.quote && w.quote != '' && w.quote.length < 40) {
+					content = content + '<h4>"' + w.quote + '"</h4>';
+				} else if (w.quote && w.quote != '' && w.quote.length < 80) {
+					content = content + '<h5>"' + w.quote + '"</h5>';
+				} else if (w.quote && w.quote != '' && w.quote.length >= 80) {
+					content = content + '<h6>"' + w.quote + '"</h6>';
+				}
+				content = content + '<p>' + w.name +
+					'<br>' + w.country + '</p>' +
+					'</div>' +
+					'<div class="light-box" style="width: fit-content;">';
+
+				if (w.twitter && w.twitter != '') {
+
+					content = content + '<a target="_blank" href="' + w.twitter + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="fa fa-twitter"></span>' +
+						'</a>';
+				}
+				if (w.linkedin && w.linkedin != '') {
+
+					content = content + '<a target="_blank" href="' + w.linkedin + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="fa fa-linkedin"></span>' +
+						'</a>';
+				}
+				if (w.other && w.other != '') {
+					content = content + '<a target="_blank" href="' + w.other + '" style="padding-left: 15px; padding-right: 15px">' +
+						'<span class="fa fa-globe"></span>' +
+						'</a>';
+				}
+
+				content = content + '</div>' +
+					'</div>';
+
+				women.push(content);
+			});
+
+			randomWomen = '';
+			shuffle(women);
+
+			women.forEach(w =>{
+				randomWomen = randomWomen + w;
+			});
+
+			$('.owl-carousel-women').html(randomWomen);
+			$('.owl-carousel-women').owlCarousel({
+				loop: true,
+				margin: 10,
+				autoplay: false,
+				autoplayTimeout: 2000,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1
+					},
+					600: {
+						items: 3
+					},
+					1000: {
+						items: 5
+					}
+				}
+			})
+		});
+
+		function shuffle(array) {
+			var currentIndex = array.length, temporaryValue, randomIndex;
+
+			// While there remain elements to shuffle...
+			while (0 !== currentIndex) {
+
+				// Pick a remaining element...
+				randomIndex = Math.floor(Math.random() * currentIndex);
+				currentIndex -= 1;
+
+				// And swap it with the current element.
+				temporaryValue = array[currentIndex];
+				array[currentIndex] = array[randomIndex];
+				array[randomIndex] = temporaryValue;
+			}
+
+			return array;
+		}
+
+
 	</script>
 
 

@@ -28,7 +28,10 @@ var language = {
         partners: "PARTNERS",
         survey_end: "Survey was closed on 7th September",
         interview_button: "Answer the interview",
-        interview_text: "Interview was closed on 14th September, thanks for your cooperation. Keep in touch to be updated!"
+        interview_text: "Interview was closed on 14th September, thanks for your cooperation. Keep in touch to be updated!",
+        thanks_pretitle: "THANKS",
+        thanks_title: "Thanks all for your <br> <span>collaboration</span>!",
+        thanks_text: "This section wants to give face and voice to all the participants to this WIC project."
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
@@ -54,8 +57,11 @@ var language = {
         partners: "SOCIOS",
         survey_end: "La encuesta se cerró el 7 de septiembre",
         interview_button: "Responde a la entrevista",
-        interview_text: "La entrevista se cerró el 14 de septiembre, gracias por tu cooperación. ¡Mantente en contacto para estar actualizado!"
-      },
+        interview_text: "La entrevista se cerró el 14 de septiembre, gracias por tu cooperación. ¡Mantente en contacto para estar actualizado!",
+        thanks_pretitle: "GRACIAS",
+        thanks_title: "¡Gracias a todas por vuestra <br> <span> colaboración </span>!",
+        thanks_text: "Esta sección quiere dar rostro y voz a todas las participantes de este proyecto WIC"
+    },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
         home_button: "En savoir plus sur nous",
@@ -80,7 +86,10 @@ var language = {
         partners: "PARTENAIRES",
         survey_end: "Le questionnaire a été clôturée le 7 septembre",
         interview_button: "Répondre à l'interview",
-        interview_text: "L'entretien a été clôturé le 14 septembre, merci pour votre coopération. Restez en contact pour être mis à jour!"
+        interview_text: "L'entretien a été clôturé le 14 septembre, merci pour votre coopération. Restez en contact pour être mis à jour!",
+        thanks_pretitle: "MERCI",
+        thanks_title: "Merci à tous pour votre <br> <span> collaboration </span>!",
+        thanks_text: "Cette section veut donner un visage et une voix à tous les participants à ce projet WIC."
     },
     it: {
         home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
@@ -106,7 +115,11 @@ var language = {
         partners: "PARTNERS",
         survey_end: "Il sondaggio è stato chiuso il 7 settembre",
         interview_button: "Rispondi all'intervista",
-        interview_text: "L'intervista si è conclusa il 14 settembre, grazie per la collaborazione. Resta in contatto per essere aggiornato!"
+        interview_text: "L'intervista si è conclusa il 14 settembre, grazie per la collaborazione. Resta in contatto per essere aggiornato!",
+        thanks_pretitle: "GRAZIE",
+        thanks_title: "Grazie a tutti per la <br> <span> collaborazione </span>!",
+        thanks_text: "Questa sezione vuole dare volto e voce a tutti i partecipanti a questo progetto WIC."
+
     },
     el: {
         home_subtitle: "H δράση \"Women in Copernicus\" θα εντοπίσει, θα καταγράψει, θα κατανοήσει και θα συγκεντρώσει ιστορίες γυναικών  από διάφορες Ευρωπαϊκές Περιφέρειες που εργάζονται στο Copernicus.",
@@ -132,7 +145,10 @@ var language = {
         partners: "ΣΥΝΕΡΓΑΤΕΣ",
         survey_end: "Η έρευνα έκλεισε στις 7 Σεπτεμβρίου",
         interview_button: "Απάντηση στη συνέντευξη",
-        interview_text: "Η συνέντευξη έκλεισε στις 14 Σεπτεμβρίου, ευχαριστώ για τη συνεργασία σας. Μείνετε σε επαφή για ενημέρωση!"
+        interview_text: "Η συνέντευξη έκλεισε στις 14 Σεπτεμβρίου, ευχαριστώ για τη συνεργασία σας. Μείνετε σε επαφή για ενημέρωση!",
+        thanks_pretitle: "ΕΥΧΑΡΙΣΤΩ",
+        thanks_title: "Ευχαριστώ όλους για την <br> <span> συνεργασία σας </span>!",
+        thanks_text: "Αυτή η ενότητα θέλει να δώσει πρόσωπο και φωνή σε όλους τους συμμετέχοντες σε αυτό το έργο WIC."
     },
     de: {
         home_subtitle: "Women in Copernicus soll die Geschichten von Frauen, die in europäischen Regionen im Copernicus Bereich arbeiten, sammeln, aufzeigen und verstehen. ",
@@ -158,7 +174,10 @@ var language = {
         partners: "PARTNER",
         survey_end: "Die Umfrage wurde am 7. September geschlossen",
         interview_button: "Beantworte das Interview",
-        interview_text: "Das Interview wurde am 14. September geschlossen, danke für Ihre Mitarbeit. Bleiben Sie in Kontakt, um auf dem Laufenden zu bleiben!"
+        interview_text: "Das Interview wurde am 14. September geschlossen, danke für Ihre Mitarbeit. Bleiben Sie in Kontakt, um auf dem Laufenden zu bleiben!",
+        thanks_pretitle: "DANKE",
+        thanks_title: "Vielen Dank für Ihre <br> <span> Zusammenarbeit </ span>!",
+        thanks_text: "Dieser Abschnitt möchte allen Teilnehmern dieses WIC-Projekts Gesicht und Stimme geben."
     },
     nl: {
         home_subtitle: "Copernicus Women zal de verhalen van Copernicusvrouwen in Europese Regio's identificeren, inventariseren, begrijpen en samenbrengen.",
@@ -184,7 +203,10 @@ var language = {
         partners: "PARTNERS",
         survey_end: "De enquête is op 7 september gesloten",
         interview_button: "Beantwoord het interview",
-        interview_text: "Het interview is op 14 september gesloten, bedankt voor uw medewerking. Blijf op de hoogte om op de hoogte te blijven!"
+        interview_text: "Het interview is op 14 september gesloten, bedankt voor uw medewerking. Blijf op de hoogte om op de hoogte te blijven!",
+        thanks_pretitle: "BEDANKT",
+        thanks_title: "Bedankt allemaal voor uw <br> <span> samenwerking </span>!",
+        thanks_text: "Deze sectie wil gezicht en stem geven aan alle deelnemers aan dit WIC-project."
     },
 }
 
@@ -212,8 +234,11 @@ var partners = document.getElementById("partners");
 var survey_end = document.getElementById("survey_end");
 // var interview_button = document.getElementById("interview_button");
 var interview_text = document.getElementById("interview_text");
+var thanks_pretitle = document.getElementById("thanks_pretitle");
+var thanks_title = document.getElementById("thanks_title");
+var thanks_text = document.getElementById("thanks_text");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_text];
+    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_text, thanks_pretitle, thanks_title, thanks_text];
 
 changeLanguague();
 
