@@ -2263,6 +2263,9 @@ h6 {
     width: 100%;
     min-height: 420px;
     z-index: 1; }
+    @media (max-width: 414px) {
+      .banner_area .banner_inner {
+        background-position: 80%; } }
     .banner_area .banner_inner .banner_content h2 {
       color: #222222;
       font-size: 48px;
