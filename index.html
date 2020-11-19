@@ -207,23 +207,16 @@
 			<div class="row">
 				<div class="col-lg-7 col-md-12">
 					<h2 id="survey_title">Are you Woman working in Copernicus?</h2>
-					<p id="survey_p">This survey addresses European Women working (or having worked) with Copernicus
-						data or in the
-						Copernicus world (please just answer in that case). There are 6 sections (demographics,
-						background, barriers, facilitators, education choices and final). This should take 15 minutes to
-						answer.
-						<br> Thank you
-						for your time and involvement</p>
-					<!-- 	<a href="https://forms.office.com/Pages/ResponsePage.aspx?id=hGqBH6Z6VkqyKns0UvqGgReYc1EZ4xxEisRC7d1NcSJURFFZNExJUzM0VUEyU1VWNzFHTjBMMVdaQi4u"
-						target="_blank" class="primary-btn" id="survey_button" title="Click to start the survey">
-						Fill in the survey</a> -->
-					<p id="survey_end">Survey was closed on 7th September</p>
-
-					<p id="interview_text">Interview was closed on 14th September, thanks for your cooperation. Keep in
-						touch to be updated!</p>
+					<p id="survey_p">
+						The "Women in Copernicus" project shed some light into the gender subject from the point of view
+						of
+						women active in Copernicus. Far from being representative of the whole ecosystem, the replies
+						received from 460 women who participated in the survey launched in 2020 provide a first insight
+						into
+						a subject that should deserve further consideration in the future.
+					</p>
 					<a href="./results.html" class="primary-btn" id="interview_button" title="Check the results!">
 						Check the results!</a>
-
 				</div>
 				<img src="img/cta-bg-shape.png" alt="earth shape" class="cta-shape img-fluid">
 			</div>
@@ -253,6 +246,23 @@
 			</div>
 		</div>
 	</section>
+
+	<!--================ Start CTA Area =================-->
+	<section id="survey" class="cta-area gradient-bg-secondary">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-7 col-md-12">
+					<h2 id="events_title">Follow WiC events</h2>
+					<p id="events_p">Follow upcoming events and check past ones!</p>
+				</div>
+				<div class="col-lg-3 col-md-12">
+					<a href="./events.html" class="primary-btn" id="events_button" title="Check the events!">
+						Check the events!</a>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!--================ End CTA Area =================-->
 
 	<!--================ Start Service Area =================-->
 	<section id="funding" class="service-area section-gap">
@@ -414,6 +424,15 @@
 									group</a>
 							</div>
 						</div>
+						<br>
+						<h6>Site Map</h6>
+						<div class="row">
+							<ul class="col footer-nav">
+								<li><a href="./index.html" title="Home">Home</a></li>
+								<li><a href="./results.html" title="Results">Results</a></li>
+								<li><a href="./events.html" title="Events">Events</a></li>
+							</ul>
+						</div>
 						<div class="row">
 							<div class="footer-social d-flex align-items-center">
 
@@ -559,7 +578,7 @@
 					content = content + '<p>' + w.name +
 						'<br>' + w.country + '</p>' +
 						'</div>' +
-						'<div class="light-box" style="width: fit-content;">';
+						'<div class="light-box" style="width: max-content;">';
 
 					if (w.twitter && w.twitter != '') {
 

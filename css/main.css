@@ -661,6 +661,13 @@ th {
   background: -ms-linear-gradient(180deg, #2096BC 0%, #01224D 100%);
   background: linear-gradient(180deg, #2096BC 0%, #01224D 100%); }
 
+.gradient-bg-secondary {
+  background: -webkit-linear-gradient(180deg, #EAC13C 0%, #D99544 100%) !important;
+  background: -moz-linear-gradient(180deg, #EAC13C 0%, #D99544 100%) !important;
+  background: -o-linear-gradient(180deg, #EAC13C 0%, #D99544 100%) !important;
+  background: -ms-linear-gradient(180deg, #EAC13C 0%, #D99544 100%) !important;
+  background: linear-gradient(180deg, #EAC13C 0%, #D99544 100%) !important; }
+
 .gradient-bg-reverse {
   background: -webkit-linear-gradient(270deg, #4ba0f9 0%, #85f3f9 100%);
   background: -moz-linear-gradient(270deg, #4ba0f9 0%, #85f3f9 100%);

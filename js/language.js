@@ -18,7 +18,7 @@ var language = {
         inspiration_title: "Inspiration",
         inspiration_p: "We want to inspire and encourage girls / women to study and apply for these positions",
         survey_title: "Are you a woman working in Copernicus?",
-        survey_p: "This survey addresses European Women* working or having worked with Copernicus data or in the Copernicus domain of activities. The survey includes 6 sections (demographics, background and career, barriers, facilitators,education choices and final). It should only take 10 minutes to answer. Thank you for your time and interest in this initiative. <br>* female gender is independent of biological sex",
+        survey_p: "The 'Women in Copernicus' project shed some light into the gender subject from the point of view of women active in Copernicus. Far from being representative of the whole ecosystem, the replies received from 460 women who participated in the survey launched in 2020 provide a first insight into a subject that should deserve further consideration in the future.",
         survey_button: "Fill in the survey",
         funding_pretitle: "Who we are",
         funding_title: "Funding and <span>Partners.</span>",
@@ -31,7 +31,10 @@ var language = {
         interview_text: "Interview was closed on 14th September, thanks for your cooperation. Keep in touch to be updated!",
         thanks_pretitle: "THANKS",
         thanks_title: "Thanks all for your <br> <span>collaboration</span>!",
-        thanks_text: "This section wants to give face and voice to all the participants to this WIC project."
+        thanks_text: "This section wants to give face and voice to all the participants to this WIC project.",
+        events_title: "Follow WiC events",
+        events_p: "Follow upcoming events and check past ones!",
+        events_button: "Check the events!"
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
@@ -47,7 +50,7 @@ var language = {
         inspiration_title: "Inspiración",
         inspiration_p: "Queremos inspirar e incentivar a mujeres y niñas a que estudien y apliquen para esos puestros de trabajo",
         survey_title: "¿Eres una mujer que trabaja en copernicus?",
-        survey_p: "Esta encuesta se dirige a mujeres* que trabajan (o han trabajado) con datos o en el ámbito de Copernicus (por favor, responde únicamente si este es tu caso). La encuesta contiene 6 secciones (demografía, antecedentes, barreras, facilitadores, opciones educativas y final). Responderla sólo te llevará 10 minutos. Gracias por tu tiempo y compromiso con esta iniciativa. <br>* el género femenino es independiente del sexo biológico",
+        survey_p: "El proyecto 'Women in Copernicus' arroja algo de luz sobre el tema de género desde el punto de vista de las mujeres activas en Copernicus. Lejos de ser representativo de todo el ecosistema, las respuestas recibidas de 460 mujeres que participaron en la encuesta lanzada en 2020 proporciona una primera visión de un tema que debería merecer una mayor consideración en el futuro. ",
         survey_button: "Responde a la encuesta",
         funding_pretitle: "Quienes somos",
         funding_title: "Financiación y <span> Socios. </span>",
@@ -60,7 +63,10 @@ var language = {
         interview_text: "La entrevista se cerró el 14 de septiembre, gracias por tu cooperación. ¡Mantente en contacto para estar actualizado!",
         thanks_pretitle: "GRACIAS",
         thanks_title: "¡Gracias a todas por vuestra <br> <span> colaboración </span>!",
-        thanks_text: "Esta sección quiere dar rostro y voz a todas las participantes de este proyecto WIC"
+        thanks_text: "Esta sección quiere dar rostro y voz a todas las participantes de este proyecto WIC",
+        events_title: "Sigue los eventos WiC",
+        events_p: "Sigue los eventos futuros y consulta los que ya han pasado!",
+        events_button: "Consulta los eventos!"
     },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
@@ -76,7 +82,7 @@ var language = {
         inspiration_title: "Inspiration",
         inspiration_p: "Nous voulons inspirer et encourager les filles / femmes à étudier et à postuler à ces métiers liés à Copernicus",
         survey_title: "Êtes-vous une femme travaillant en lien avec Copernicus?",
-        survey_p: "Cette enquête s’adresse aux femmes* européennes travaillant ou ayant travaillé avec des données Copernicus ou dans les domaines d’activité liés à Copernicus. L’enquête compte 6 sections (démographique, parcours et carrière, barrières, facilitateurs, choix d’éducation et conclusion) et 10 minutes suffisent pour y répondre. Merci pour votre temps et votre intérêt pour cette initiative. <br>* le genre féminin est indépendant du sexe biologique",
+        survey_p: "Le projet 'Women in Copernicus' a éclairé le sujet du genre du point de vue des femmes actives à Copernicus. Loin d'être représentatives de l'ensemble de l'écosystème, les réponses reçues de 460 femmes qui ont participé à l'enquête lancée en 2020 offre un premier aperçu d'un sujet qui devrait mériter un examen plus approfondi à l'avenir. ",
         survey_button: "RÉPONDRE À L'ENQUÊTE",
         funding_pretitle: "QUI NOUS SOMMES",
         funding_title: "Financement et <span> partenaires. </span>",
@@ -89,7 +95,13 @@ var language = {
         interview_text: "L'entretien a été clôturé le 14 septembre, merci pour votre coopération. Restez en contact pour être mis à jour!",
         thanks_pretitle: "MERCI",
         thanks_title: "Merci à tous pour votre <br> <span> collaboration </span>!",
-        thanks_text: "Cette section veut donner un visage et une voix à tous les participants à ce projet WIC."
+        thanks_text: "Cette section veut donner un visage et une voix à tous les participants à ce projet WIC.",
+        events_title: "Follow WiC events",
+        events_p: "Follow upcoming events and check past ones!",
+        events_button: "Check the events!",
+        events_title: "Suivez les événements WiC",
+        events_p: "Suivez les événements à venir et vérifiez les précédents!",
+        events_button: "Vérifiez les événements!"
     },
     it: {
         home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
@@ -105,7 +117,7 @@ var language = {
         inspiration_title: "Ispirazione",
         inspiration_p: "Vogliamo ispirare e incoraggiare le ragazze / donne a studiare e candidarsi per queste posizioni",
         survey_title: "Sei una donna che lavora a Copernicus?",
-        survey_p: "Quest’inchiesta è rivolta alle donne* europee che lavorano (o hanno lavorato) con i dati e i servizi di Copernicus (si prega di rispondere solo in questo caso). L’inchiesta include 6 sezioni (dati demografici, background, barriere, fattori facilitanti, scelte di studio ed una parte finale). Rispondere all’inchiesta dovrebbe richiedere solo 10 minuti. La ringraziamo per il suo tempo e il suo contributo. <br>* Il genere femminile è indipendente dal sesso biologico",
+        survey_p: "Il progetto 'Women in Copernicus' ha fatto luce sulla tematica di genere dal punto di vista delle donne attive in Copernicus. Lungi dall'essere rappresentative dell'intero ecosistema, le risposte ricevute da 460 donne che hanno partecipato al sondaggio lanciato a Il 2020 fornisce una prima visione di un argomento che dovrebbe meritare ulteriore considerazione in futuro. ",
         survey_button: "COMPILA IL QUESTIONARIO",
         funding_pretitle: "CHI SIAMO",
         funding_title: "Finanziamenti e <span> partner.</span>",
@@ -118,8 +130,10 @@ var language = {
         interview_text: "L'intervista si è conclusa il 14 settembre, grazie per la collaborazione. Resta in contatto per essere aggiornato!",
         thanks_pretitle: "GRAZIE",
         thanks_title: "Grazie a tutti per la <br> <span> collaborazione </span>!",
-        thanks_text: "Questa sezione vuole dare volto e voce a tutti i partecipanti a questo progetto WIC."
-
+        thanks_text: "Questa sezione vuole dare volto e voce a tutti i partecipanti a questo progetto WIC.",
+        events_title: "Segui gli eventi WiC",
+        events_p: "Segui i prossimi eventi e controlla quelli passati!",
+        events_button: "Controlla gli eventi!"
     },
     el: {
         home_subtitle: "H δράση \"Women in Copernicus\" θα εντοπίσει, θα καταγράψει, θα κατανοήσει και θα συγκεντρώσει ιστορίες γυναικών  από διάφορες Ευρωπαϊκές Περιφέρειες που εργάζονται στο Copernicus.",
@@ -135,7 +149,7 @@ var language = {
         inspiration_title: "Εμπνευση",
         inspiration_p: "Θέλουμε να εμπνεύσουμε και να ενθαρρύνουμε τα κορίτσια / τις γυναίκες να σπουδάσουν και να υποβάλουν αίτηση για αυτές τις θέσεις",
         survey_title: "Είστε γυναίκα που εργάζεται στο Copernicus;",
-        survey_p: "Η έρευνα αυτή αφορά τις ευρωπαίες γυναίκες* που εργάζονται (ή έχουν εργαστεί) με δεδομένα του προγράμματος Copernicus. Η έρευνα περιλαμβάνει 5 τμήματα (τα δημογραφικά στοιχεία, το υπόβαθρο και την σταδιοδρομία, τα εμπόδια, τους διευκολυντές και τις εκπαιδευτικές επιλογές). Θα χρειαστείτε περίπου 10 λεπτά για να απαντήσετε στο ερωτηματολόγιο. Σας ευχαριστούμε για τον χρόνο και τη συμμετοχή σας. <br>* το γυναικείο φύλο είναι ανεξάρτητο από το βιολογικό φύλο.",
+        survey_p: "Το έργο 'Women in Copernicus' ρίχνει λίγο φως στο θέμα του φύλου από την άποψη των γυναικών που δραστηριοποιούνται στο Κοπέρνικος. Αντί να είναι αντιπροσωπευτικές ολόκληρου του οικοσυστήματος, οι απαντήσεις έλαβαν από 460 γυναίκες που συμμετείχαν στην έρευνα που ξεκίνησε το Το 2020 παρέχει μια πρώτη εικόνα για ένα θέμα που πρέπει να εξεταστεί περαιτέρω στο μέλλον. ",
         survey_button: "ΣΥΜΠΛΗΡΩΣΤΕ ΤΗΝ ΕΡΕΥΝΑ",
         funding_pretitle: "ΠΟΙΟΙ ΕΙΜΑΣΤΕ",
         funding_title: "Χρηματοδότηση και Συνεργάτες.",
@@ -148,7 +162,10 @@ var language = {
         interview_text: "Η συνέντευξη έκλεισε στις 14 Σεπτεμβρίου, ευχαριστώ για τη συνεργασία σας. Μείνετε σε επαφή για ενημέρωση!",
         thanks_pretitle: "ΕΥΧΑΡΙΣΤΩ",
         thanks_title: "Ευχαριστώ όλους για την <br> <span> συνεργασία σας </span>!",
-        thanks_text: "Αυτή η ενότητα θέλει να δώσει πρόσωπο και φωνή σε όλους τους συμμετέχοντες σε αυτό το έργο WIC."
+        thanks_text: "Αυτή η ενότητα θέλει να δώσει πρόσωπο και φωνή σε όλους τους συμμετέχοντες σε αυτό το έργο WIC.",
+        events_title: "Παρακολούθηση εκδηλώσεων WiC",
+        events_p: "Ακολουθήστε προσεχείς εκδηλώσεις και ελέγξτε παλιότερα!",
+        events_button: "Ελέγξτε τις εκδηλώσεις!"
     },
     de: {
         home_subtitle: "Women in Copernicus soll die Geschichten von Frauen, die in europäischen Regionen im Copernicus Bereich arbeiten, sammeln, aufzeigen und verstehen. ",
@@ -164,7 +181,7 @@ var language = {
         inspiration_title: "Inspiration",
         inspiration_p: "Wir möchten Mädchen und Frauen inspirieren und ermutigen, sich für diese Stellen zu bewerben",
         survey_title: "Sind Sie eine Frau, die im Copernicus Bereich arbeitet? ",
-        survey_p: "Der Fragebogen richtet sich an alle Frauen*, die in der Copernicus Welt bzw. mit Copernicus Daten arbeiten oder gearbeitet haben. Er ist unterteilt in 6 Abschnitte (Sozio-Demographie, Ausbildung und Karriere, Hürden und Barrieren, Förderung und Unterstützung, Ausbildungswahl - MINT, Danksagung) und wird 10 – 15 Minuten in Anspruch nehmen. Danke für Ihre Zeit und Ihr Interesse an dieser Initiative. <br>* unabhängig von dem biologischen Geschlecht",
+        survey_p: "Das Projekt 'Women in Copernicus' beleuchtet das Thema Geschlecht aus Sicht der in Copernicus tätigen Frauen. Die Antworten von 460 Frauen, die an der Umfrage teilgenommen haben, sind weit davon entfernt, repräsentativ für das gesamte Ökosystem zu sein 2020 bieten einen ersten Einblick in ein Thema, das in Zukunft weitere Überlegungen verdienen sollte. ",
         survey_button: "Nehmen Sie an der Umfrage teil",
         funding_pretitle: "WER WIR SIND",
         funding_title: "Finanzierung und Partner.",
@@ -177,7 +194,10 @@ var language = {
         interview_text: "Das Interview wurde am 14. September geschlossen, danke für Ihre Mitarbeit. Bleiben Sie in Kontakt, um auf dem Laufenden zu bleiben!",
         thanks_pretitle: "DANKE",
         thanks_title: "Vielen Dank für Ihre <br> <span> Zusammenarbeit </ span>!",
-        thanks_text: "Dieser Abschnitt möchte allen Teilnehmern dieses WIC-Projekts Gesicht und Stimme geben."
+        thanks_text: "Dieser Abschnitt möchte allen Teilnehmern dieses WIC-Projekts Gesicht und Stimme geben.",
+        events_title: "WiC-Ereignisse verfolgen",
+        events_p: "Verfolge bevorstehende Ereignisse und überprüfe vergangene!",
+        events_button: "Überprüfen Sie die Ereignisse!"
     },
     nl: {
         home_subtitle: "Copernicus Women zal de verhalen van Copernicusvrouwen in Europese Regio's identificeren, inventariseren, begrijpen en samenbrengen.",
@@ -193,7 +213,7 @@ var language = {
         inspiration_title: "Inspiratie",
         inspiration_p: "We willen meisjes / vrouwen inspireren en aanmoedigen om te studeren en zich kandidaat te stellen voor deze posities",
         survey_title: "Ben jij een vrouw die werkt in Copernicus?",
-        survey_p: "Deze enquête richt zich tot Europese vrouwen* die werken of gewerkt hebben met Copernicus-gegevens of op aan Copernicus gelinkte activiteitengebieden. De enquête omvat zes secties (demografie, achtergrond en loopbaan, hinderpalen, facilitatoren, opleidingskeuzes en conclusie) en neemt nauwelijks tien minuten in beslag. Bedankt voor uw tijd en aandacht voor dit initiatief. <br>* genderidentiteit bij vrouwen staat los van het biologische geslacht",
+        survey_p: "Het 'Vrouwen in Copernicus'-project wierp enig licht op het genderonderwerp vanuit het oogpunt van vrouwen die actief zijn in Copernicus. De antwoorden zijn verre van representatief voor het hele ecosysteem, maar de antwoorden van 460 vrouwen die deelnamen aan de enquête die in 2020 bieden een eerste inzicht in een onderwerp dat in de toekomst verdere aandacht verdient. ",
         survey_button: "VUL DE VRAGENLIJST IN",
         funding_pretitle: "WIE ZIJN WE?",
         funding_title: "Financiering en <span> Partners.</span>",
@@ -206,7 +226,10 @@ var language = {
         interview_text: "Het interview is op 14 september gesloten, bedankt voor uw medewerking. Blijf op de hoogte om op de hoogte te blijven!",
         thanks_pretitle: "BEDANKT",
         thanks_title: "Bedankt allemaal voor uw <br> <span> samenwerking </span>!",
-        thanks_text: "Deze sectie wil gezicht en stem geven aan alle deelnemers aan dit WIC-project."
+        thanks_text: "Deze sectie wil gezicht en stem geven aan alle deelnemers aan dit WIC-project.",
+        events_title: "Volg WiC-evenementen",
+        events_p: "Volg aankomende evenementen en bekijk eerdere!",
+        events_button: "Bekijk de evenementen!"
     },
 }
 
@@ -224,21 +247,21 @@ var inspiration_title = document.getElementById("inspiration_title");
 var inspiration_p = document.getElementById("inspiration_p");
 var survey_title = document.getElementById("survey_title");
 var survey_p = document.getElementById("survey_p");
-// var survey_button = document.getElementById("survey_button");
 var funding_pretitle = document.getElementById("funding_pretitle");
 var funding_title = document.getElementById("funding_title");
 var funding_p = document.getElementById("funding_p");
 var participants = document.getElementById("participants");
 var supporters = document.getElementById("supporters");
 var partners = document.getElementById("partners");
-var survey_end = document.getElementById("survey_end");
 var interview_button = document.getElementById("interview_button");
-var interview_text = document.getElementById("interview_text");
 var thanks_pretitle = document.getElementById("thanks_pretitle");
 var thanks_title = document.getElementById("thanks_title");
 var thanks_text = document.getElementById("thanks_text");
+var events_title = document.getElementById("events_title");
+var events_p = document.getElementById("events_p");
+var events_button = document.getElementById("events_button");
 let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, survey_end, interview_button, interview_text, thanks_pretitle, thanks_title, thanks_text];
+    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, interview_button, thanks_pretitle, thanks_title, thanks_text, events_title, events_p, events_button];
 
 changeLanguague();
 
