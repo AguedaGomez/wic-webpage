@@ -234,7 +234,7 @@ var language = {
 }
 
 var subtitle = document.getElementById("home_subtitle");
-var home_button = document.getElementById("home_button");
+// var home_button = document.getElementById("home_button");
 // var video_presentation = document.getElementById("video_presentation");
 var action_pretitle = document.getElementById("action_pretitle");
 var action_title = document.getElementById("action_title");
@@ -260,7 +260,7 @@ var thanks_text = document.getElementById("thanks_text");
 var events_title = document.getElementById("events_title");
 var events_p = document.getElementById("events_p");
 var events_button = document.getElementById("events_button");
-let texts = [subtitle, home_button, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
+let texts = [subtitle, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
     survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, interview_button, thanks_pretitle, thanks_title, thanks_text, events_title, events_p, events_button];
 
 changeLanguague();
