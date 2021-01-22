@@ -32,6 +32,8 @@ var language = {
         thanks_pretitle: "THANKS",
         thanks_title: "Thanks all for your <br> <span>collaboration</span>!",
         thanks_text: "This section wants to give face and voice to all the participants to this WIC project.",
+        videos_pretitle: "Women talk about Copernicus",
+        videos_title: "Check the <br> <span>#WTAC</span> videos",
         events_title: "Follow WiC events",
         events_p: "Follow upcoming events and check past ones!",
         events_button: "Check the events!"
@@ -64,6 +66,8 @@ var language = {
         thanks_pretitle: "GRACIAS",
         thanks_title: "¡Gracias a todas por vuestra <br> <span> colaboración </span>!",
         thanks_text: "Esta sección quiere dar rostro y voz a todas las participantes de este proyecto WIC",
+        videos_pretitle: "Las mujeres hablan sobre Copernicus",
+        videos_title: "Mira los videos <br> <span>#WTAC</span>",
         events_title: "Sigue los eventos WiC",
         events_p: "Sigue los eventos futuros y consulta los que ya han pasado!",
         events_button: "Consulta los eventos!"
@@ -96,6 +100,8 @@ var language = {
         thanks_pretitle: "MERCI",
         thanks_title: "Merci à tous pour votre <br> <span> collaboration </span>!",
         thanks_text: "Cette section veut donner un visage et une voix à tous les participants à ce projet WIC.",
+        videos_pretitle: "Les femmes parlent de Copernicus",
+        videos_title: "Consultez les vidéos <br> <span> #WTAC </span>",
         events_title: "Follow WiC events",
         events_p: "Follow upcoming events and check past ones!",
         events_button: "Check the events!",
@@ -131,6 +137,8 @@ var language = {
         thanks_pretitle: "GRAZIE",
         thanks_title: "Grazie a tutti per la <br> <span> collaborazione </span>!",
         thanks_text: "Questa sezione vuole dare volto e voce a tutti i partecipanti a questo progetto WIC.",
+        videos_pretitle: "Le donne parlano di Copernicus",
+        videos_title: "Controlla i <br> <span> #WTAC </span> video",
         events_title: "Segui gli eventi WiC",
         events_p: "Segui i prossimi eventi e controlla quelli passati!",
         events_button: "Controlla gli eventi!"
@@ -163,6 +171,8 @@ var language = {
         thanks_pretitle: "ΕΥΧΑΡΙΣΤΩ",
         thanks_title: "Ευχαριστώ όλους για την <br> <span> συνεργασία σας </span>!",
         thanks_text: "Αυτή η ενότητα θέλει να δώσει πρόσωπο και φωνή σε όλους τους συμμετέχοντες σε αυτό το έργο WIC.",
+        videos_pretitle: "Οι γυναίκες μιλούν για τον Κοπέρνικο",
+        videos_title: "Ελέγξτε τα <br> <span> #WTAC </span> βίντεο",
         events_title: "Παρακολούθηση εκδηλώσεων WiC",
         events_p: "Ακολουθήστε προσεχείς εκδηλώσεις και ελέγξτε παλιότερα!",
         events_button: "Ελέγξτε τις εκδηλώσεις!"
@@ -195,6 +205,8 @@ var language = {
         thanks_pretitle: "DANKE",
         thanks_title: "Vielen Dank für Ihre <br> <span> Zusammenarbeit </ span>!",
         thanks_text: "Dieser Abschnitt möchte allen Teilnehmern dieses WIC-Projekts Gesicht und Stimme geben.",
+        videos_pretitle: "Frauen sprechen über Copernicus",
+        videos_title: "Überprüfen Sie die <br> <span> #WTAC </span> -Videos",
         events_title: "WiC-Ereignisse verfolgen",
         events_p: "Verfolge bevorstehende Ereignisse und überprüfe vergangene!",
         events_button: "Überprüfen Sie die Ereignisse!"
@@ -227,6 +239,8 @@ var language = {
         thanks_pretitle: "BEDANKT",
         thanks_title: "Bedankt allemaal voor uw <br> <span> samenwerking </span>!",
         thanks_text: "Deze sectie wil gezicht en stem geven aan alle deelnemers aan dit WIC-project.",
+        videos_pretitle: "Vrouwen praten over Copernicus",
+        videos_title: "Bekijk de <br> <span> #WTAC </span> video's",
         events_title: "Volg WiC-evenementen",
         events_p: "Volg aankomende evenementen en bekijk eerdere!",
         events_button: "Bekijk de evenementen!"
@@ -257,11 +271,13 @@ var interview_button = document.getElementById("interview_button");
 var thanks_pretitle = document.getElementById("thanks_pretitle");
 var thanks_title = document.getElementById("thanks_title");
 var thanks_text = document.getElementById("thanks_text");
+var videos_pretitle = document.getElementById("videos_pretitle");
+var videos_title = document.getElementById("videos_title");
 var events_title = document.getElementById("events_title");
 var events_p = document.getElementById("events_p");
 var events_button = document.getElementById("events_button");
 let texts = [subtitle, action_pretitle, action_title, action_p, positions_title, positions_p, opportunities_title, opportunities_p, inspiration_title, inspiration_p,
-    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, interview_button, thanks_pretitle, thanks_title, thanks_text, events_title, events_p, events_button];
+    survey_title, survey_p, funding_pretitle, funding_title, funding_p, participants, supporters, partners, interview_button, thanks_pretitle, thanks_title, thanks_text, videos_pretitle, videos_title, events_title, events_p, events_button];
 
 changeLanguague();
 
