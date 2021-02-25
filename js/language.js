@@ -1,13 +1,7 @@
-
-//alert ("The language is: " + userLang);
-
-
 // Translations
 var language = {
     en: {
         home_subtitle: "Copernicus Women will identify, inventory, understand and gather the stories of Copernicus Women in European Regions.",
-        home_button: "More About Us",
-        video_presentation: "Watch Project Presentation",
         action_pretitle: "Our Action",
         action_title: "Why Women in <span>Copernicus?</span> <br> This is our mission",
         action_p: "Women are part of the Copernicus experience. They are not always visible but they are present in the production flow of the Copernicus / Earth Observation / Geoinformation (Copernicus/EO/GI) domains. The professions related to Copernicus/EO/GI domains are very varied: physicist, geographer, computer scientist, environmentalist, geomatician, oceanographer, urban planner ; as a researcher, a civil servant, a consultant, an entrepreneur, etc. Women still occupy few of these positions with a strong technical component. <br> The \"Women in Copernicus\" projects wants to give a voice and a face to the women who work with Copernicus, wether they are experts in the analysis of satellite data or users of Copernicus services in various fields of application.The project aims to identify opportunities and obstacles in the paths of these women, and also to inspire girls and women by bringing Women in Copernicus to the forefront of Copernicus.",
@@ -40,8 +34,6 @@ var language = {
     },
     es: {
         home_subtitle: "Mujeres en Copernicus (Women in Copernicus) identificará, recopilará, entenderá y le abrirá las puertas a las historias de mujeres en Copernicus en las regiones de Europa",
-        home_button: "Más sobre nosotras",
-        video_presentation: "Vídeo de presentación",
         action_pretitle: "Nuestra acción",
         action_title: "¿Por qué mujeres en <span>Copernicus?</span> <br> Esta es nuestra misión",
         action_p: "Aunque a veces permanezcan ocultas, las mujeres son parte del programa Copernicus, y están están presentes en el flujo su producción. Las profesiones relacionadas con Copernicus, Observación de la Tierra y/o Información Geográfica son muy variadas: profesionales de Física, Geografía, Informática, Ciencias del Medio Ambiente, Geomática, Oceanografía, … asi como personal investigador, funcionario... pasando por profesionales en consultoría o emprendedores. Gran parte de estas profesiones, tienen una fuerte componente técnica que parece carecer de atractivo para otras muchas mujeres. <br> \"Mujeres en Copernicus\" (Women in Copernicus) quiere dar voz y rostro a las mujeres que trabajan en el ámbito de Copernicus, ya sean expertas en el análisis de datos satelitales o usuarias de los servicios de Copernicus en diversos campos de aplicación. El proyecto tiene como objetivo identificar oportunidades y obstáculos en el camino de estas mujeres, y también inspirar a las niñas y mujeres capaces de estar a la vanguardia del programa Copernicus.",
@@ -74,8 +66,6 @@ var language = {
     },
     fr: {
         home_subtitle: "Women in Copernicus va rechercher, collecter, comprendre et rassembler les histoires des femmes en lien avec Copernicus dans les régions européennes.",
-        home_button: "En savoir plus sur nous",
-        video_presentation: "En savoir plus sur nous",
         action_pretitle: "NOTRE ACTION",
         action_title: "Pourquoi les femmes et <span>Copernicus?</span> <br>C'est notre mission",
         action_p: "Les femmes participent activement à l’expérience Copernicus. Elles sont parfois peu visibles mais bien présentes tout au long de la chaîne de production de Copernicus / de l’Observation de la Terre (EO) / de la Géoinformation (GI) (Copernicus/EO/GI). Les métiers liés à ces domaines sont très variés : physicienne, géographe, informaticienne, environnementaliste, océanographe, géomaticienne, urbaniste, etc. ; à des postes de chercheuses, fonctionnaires, consultantes, entrepreneures, etc. Une grande partie de ces professions ont une forte composante technique, et paraissent peu attrayantes pour beaucoup de femmes. <br> \'Les Femmes et Copernicus\' (Women in Copernicus) veut donner une voix et un visage aux femmes qui œuvrent pour Copernicus, qu’elles soient expertes dans l’analyse des données satellitaires ou utilisatrices de services Copernicus pour divers domaines d’applications.  Ce projet vise à identifier les opportunités et les barrières sur le chemin de ces femmes, et également à inspirer les filles et les femmes capables d’être au premier plan du progamme Copernicus.",
@@ -111,8 +101,6 @@ var language = {
     },
     it: {
         home_subtitle: "Copernicus Women identificherà, comprenderà e raccoglierà le storie delle \"Donne Copernicus\" nelle regioni europee.",
-        home_button: "Per saperne di più su di noi",
-        video_presentation: "Per saperne di più su di noi",
         action_pretitle: "LA NOSTRA AZIONE",
         action_title: "Perché \"Donne in <span>Copernicus\"?</span> <br> La nostra missione",
         action_p: "Le donne sono parte integrante dell’esperienza Copernicus. A volte rimangono nell’ombra, ma sono ben  presenti nei processi di produzione dei settori dell’Osservazione della terra, della Geoinformazione e dei dati e servizi Copernicus (EO/GI/Copernicus). Le professioni relative a Copernicus, all’Osservazione della Terra e alla Geografia sono molteplici: fisico, geografo, professionista dell’ambiente, geomatico, oceanografo, ricercatore, funzionario pubblico, consulente, urbanista, imprenditore, ecc. Le donne occupano ancora poche di queste posizioni con una forte componente tecnica. <br> Con l’iniziativa “Women in Copernicus” vogliamo dare un volto e una voce alle donne che lavorano con i dati e i servizi di Copernicus, siano esse esperte nell’analisi dei dati satellitari o utenti dei dati e servizi Copernicus in vari campi di applicazione. Quest’iniziativa mira ad identificare le opportunità e gli ostacoli nel percorso professionale di queste donne, ed anche ad inspirare le ragazze e le donne dando un ruolo di primo piano alle “Copernicus Women”.",
@@ -145,8 +133,6 @@ var language = {
     },
     el: {
         home_subtitle: "H δράση \"Women in Copernicus\" θα εντοπίσει, θα καταγράψει, θα κατανοήσει και θα συγκεντρώσει ιστορίες γυναικών  από διάφορες Ευρωπαϊκές Περιφέρειες που εργάζονται στο Copernicus.",
-        home_button: "Περισσότερα για εμάς",
-        video_presentation: "Η ΔΡΑΣΗ ΜΑΣ",
         action_pretitle: "Η ΔΡΑΣΗ ΜΑΣ",
         action_title: "Γιατί οι Γυναίκες στο <span>Copernicus</span>; <br>Αυτή είναι η αποστολή μας",
         action_p: "Οι γυναίκες αποτελούν μέρος της εμπειρίας του Copernicus. Μερικές φορές είναι κρυμμένες ωστόσο είναι παρούσες στη ροή παραγωγής των τομέων της γεωσκόπησης/των γεωπληροφοριών/ του Copernicus (ΕΟ/ GI /Copernicus). Τα επαγγέλματα που σχετίζονται με αυτούς τους τομείς ποικίλουν  σε μεγάλο βαθμό: φυσικός, γεωγράφος, επιστήμονας υπολογιστών, περιβαλλοντολόγος, χαρτογράφος, ωκεανογράφος, ερευνητής, δημόσιος υπάλληλος, σύμβουλος, πολεοδόμος, επιχειρηματίας κ.λπ. Όμως, οι γυναίκες εξακολουθούν να κατέχουν λίγες από τις θέσεις που περιλαμβάνουν ισχυρή τεχνική συνιστώσα. <br> Η δράση «Γυναίκες στο πρόγραμμα Copernicus» θέλει να δώσει μια φωνή και ένα πρόσωπο στις γυναίκες που εργάζονται με το Copernicus, είτε είναι ειδικοί στην ανάλυση δορυφορικών δεδομένων είτε χρήστες των υπηρεσιών του Copernicus σε διάφορους τομείς εφαρμογής. Άποσκοπεί στον εντοπισμό ευκαιριών και εμποδίων στην πορεία των γυναικών, καθώς και στην ενθάρρυνση των κοριτσιών και των γυναικών φέρνοντας τις ίδιες στο προσκήνιο του Copernicus.",
@@ -179,8 +165,6 @@ var language = {
     },
     de: {
         home_subtitle: "Women in Copernicus soll die Geschichten von Frauen, die in europäischen Regionen im Copernicus Bereich arbeiten, sammeln, aufzeigen und verstehen. ",
-        home_button: "Mehr über uns",
-        video_presentation: "Mehr über uns",
         action_pretitle: "Was wir tun",
         action_title: "Warum Frauen in <span>Copernicus?</span><br>Unsere Mission",
         action_p: "Frauen sind ein wichtiger Teil von Copernicus. Sie sind nicht immer sichtbar, aber tragen wesentlich zur Entwicklung von Copernicus, Erdbeobachtung und Geoinformatik (Copernicus/EO/GI) bei. Berufe rund um Copernicus sind vielfältig, wie PhysikerInnen, GeographInnen, InformatikerInnen, UmweltschützerInnen, VermesserInnen, MeeresforscherInnen, StadtplanerInnen, WissenschaftlerInnen, RegierungsmitarbeiterInnen, BeraterInnen oder UnternehmerInnen. Frauen besetzen immer noch wenige dieser Positionen, die eine starken technische Komponente besitzen. <br> Mit der Initiative « Woman in Copernicus » wollen wir Frauen, die rund um Copernicus arbeiten ein Gesicht und eine Stimme verleihen – unabhängig davon ob sie ExpertInnen in Satellitenbildanalyse oder NutzerInnen von Copernicus services in unterschiedlichen Anwendungsbereichen sind. Wir wollen Chancen und Hindernisse am beruflichen Weg dieser Frauen aufzeigen und gleichzeitig Mädchen und Frauen inspirieren.",
@@ -213,8 +197,6 @@ var language = {
     },
     nl: {
         home_subtitle: "Copernicus Women zal de verhalen van Copernicusvrouwen in Europese Regio's identificeren, inventariseren, begrijpen en samenbrengen.",
-        home_button: "Meer over ons",
-        video_presentation: "Meer over ons",
         action_pretitle: "ONZE ACTIE",
         action_title: "Vrouwen in <span>Copernicus</span>: waarom?  <br>Dit is onze missie",
         action_p: "Vrouwen nemen actief deel aan het experiment Copernicus en, hoewel zij niet altijd zichtbaar zijn, spelen zij wel degelijk een rol in de productie van Copernicus-, aardobservatie- en geo-informatiegegevens. De beroepen die aan Copernicus, aardobservatie en geo-informatie zijn gelinkt zijn zeer gevarieerd, te weten fysicus, geograaf, computerwetenschapper, milieuactivist, geomaticus, oceanograaf, stadsplanner, onderzoeker, ambtenaar, consultant, ondernemer enz. Hoogtechnische functies worden zelden door vrouwen bekleed. <br>Het project “Vrouwen in Copernicus” wil een stem en een gezicht geven aan vrouwen die met Copernicus werken, of ze nu experts zijn in de analyse van satellietgegevens of gebruikers van Copernicus-diensten op verschillende toepassingsgebieden. Het is de bedoeling de kansen en hinderpalen voor die vrouwen te identificeren en ook vrouwen en meisjes inspireren door vrouwen in de voorste gelederen van Copernicus te plaatsen.",
@@ -248,8 +230,6 @@ var language = {
 }
 
 var subtitle = document.getElementById("home_subtitle");
-// var home_button = document.getElementById("home_button");
-// var video_presentation = document.getElementById("video_presentation");
 var action_pretitle = document.getElementById("action_pretitle");
 var action_title = document.getElementById("action_title");
 var action_p = document.getElementById("action_p");
